@@ -1,0 +1,203 @@
+html {
+}
+
+body {
+	margin:0px 0px 0px 0px;
+ 	padding: 0px 4px 4px 4px;
+	font-size: 12px;
+	font-family: tahoma;
+	background-color: #FFFFFF;
+}
+
+div {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width: auto;
+	word-wrap: break-word;
+}
+
+p {
+	margin: 0px 0px 0px 0px;
+	width: auto;
+}
+
+a {
+	text-decoration: none;
+	color: #0062A8;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #BF2409;
+}
+
+.img {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	vertical-align: middle;
+}
+
+.time {
+/*	font-weight: normal;*/
+	float: right;
+}
+
+/* space between boxes, I HATE this IE-engine */
+.space {
+	line-height: 0px;
+	font-size: 12px;
+}
+
+/* -------------------- incoming messagebox -------------------- */
+.in {}
+.in .tr {}
+.in .bl {}
+
+.in .br {
+	padding: 4px 1px 4px 1px;
+}
+
+.in .hbr {
+	padding: 4px 1px 4px 1px;
+}
+
+.in .head {
+	font-weight: bold;
+	color: #247A00;
+	padding: 0px 0px 2px 0px;
+	border-bottom: solid 1px;
+	border-bottom-color: #247A00;
+}
+
+.in .content {
+	padding: 4px 0px 0px 0px;
+	color: #000000;
+}
+
+/* grouping support */
+.in .gcontent {
+	margin: 4px 0px 0px 0px;
+	padding: 4px 0px 0px 0px;
+	color: #000000;
+}
+
+.in .gtime {
+	color: #000000;
+	float: right;
+}
+
+/* -------------------- outgoing messagebox -------------------- */
+.out {}
+.out .tr {}
+.out .bl {}
+
+.out .br {
+	padding: 4px 1px 4px 1px;
+}
+
+.out .hbr {
+	padding: 4px 1px 4px 1px;
+}
+
+.out .head {
+	font-weight: bold;
+	color: #0062A8;
+	padding: 0px 0px 2px 0px;
+	border-bottom: solid 1px;
+	border-bottom-color: #0062A8;
+}
+
+.out .content {
+	padding: 4px 0px 0px 0px;
+	color: #000000;
+}
+
+/* grouping support*/
+.out .gcontent {
+	margin: 4px 0px 0px 0px;
+	padding: 4px 0px 0px 0px;
+	color: #000000;
+}
+
+.out .gtime {
+	color: #000000;
+	float: right;
+}
+
+/* -------------------- status changes -------------------- */
+.status {}
+.status .tr {}
+.status .bl {}
+
+.status .br {
+	padding: 4px 1px 4px 1px;
+}
+
+.status .head {
+	font-weight: bold;
+	color: #BF2409;
+}
+
+/* -------------------- URL events -------------------- */
+.url {}
+.url .tr {}
+.url .bl {}
+
+.url .br {
+	padding: 4px 1px 4px 1px;
+}
+
+.url .hbr {
+	padding: 4px 1px 4px 1px;
+}
+
+.url .head {
+	font-weight: bold;
+	color: #0062A8;
+	padding: 0px 0px 2px 0px;
+	border-bottom: solid 1px;
+	border-bottom-color: #0062A8;
+}
+
+.url .content {
+	padding: 4px 0px 0px 0px;
+	color: #0062A8;
+}
+
+.url a {
+	color: #0062A8;
+}
+
+.url a:hover {
+	color: #BF2409;
+}
+
+.url a:visited {
+	color: #7000A8;
+}
+
+/* -------------------- FILE events -------------------- */
+.file {}
+.file .tr {}
+.file .bl {}
+
+.file .br {
+	padding: 4px 1px 4px 1px;
+}
+
+.file .hbr {
+	padding: 4px 1px 4px 1px;
+}
+
+.file .head {
+	font-weight: bold;
+	color: #BF2409;
+	padding: 0px 0px 2px 0px;
+	border-bottom: solid 1px;
+	border-bottom-color: #BF2409;
+}
+
+.file .content {
+	padding: 4px 0px 0px 0px;
+	color: #000000;
+}

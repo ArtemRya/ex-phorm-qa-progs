@@ -1,0 +1,3 @@
+# Module adrequestbuilder
+# RPC service class, partial path of RPC policy file
+com.phorm.adrequestbuilder.client.RequestService, 6C8D82313253A5DA318BFFC77B2626AA.gwt.rpc

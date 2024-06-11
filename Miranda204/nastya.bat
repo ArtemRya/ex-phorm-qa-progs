@@ -1,0 +1,1 @@
+start miranda32.exe -profile Nastya

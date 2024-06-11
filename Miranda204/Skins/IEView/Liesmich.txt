@@ -1,0 +1,91 @@
+IEview Fusion 1.5 
+(28.02.2009) 
+
+Inhalt:
+-------
+- fusion-black.ivt
+- fusion-blue.ivt
+- fusion-white.ivt (chrome)
+- Liesmich.txt
+
+Installation:
+------------
+
+1. Entpacke den Ordner "fusion ieview" der *.zip in den Miranda Ordner, vorzugsweise "Skins"-Ordner.
+   Die Ordnerstruktur darf dabei nicht verändert werden.
+2. Miranda starten --> Einstellungen --> Nachricthensitzung --> IEview --> Tab: Nachrichtenverlauf --> 
+   Vorlage verwenden --> Auswahl des entsprechenden Skins (*.ivt)
+3. auf "Übernehmen" klicken. Ggf Miranda neustarten.
+
+Hinweis:
+-------
+
+- Benötigt Plugin "IEview", Internet Explorer 7.0 auf dem System, für Tzer-Empfang/Senden eine aktuelle "ICQplus" Version
+- Alle templates beinhalten feste Werte für Schriftarten und deren Formatierungen. Diese können nur durch Änderungen in der
+  *.ivt Datei mittels eines Editors verändert werden.
+- um die "url-Vorschau" zu deaktivieren, öffne die basic.js und kommentiere die Zeile "ausgabe = linkconvert(ausgabe,allparameter[4],allparameter[5]);" mit '//' aus
+  same for the email-parser (ausgabe = parser(ausgabe);)
+- um die "Sytemlaufzeit" in der oberen rechten Ecke zu deaktivieren, öffne die entsprechende *.ivt und suche nach <!--system uptime ### Delete the following line if not wanted ###-->
+
+
+Changelog:
+---------
+
+** v1.0 **
+- initial release
+
+** v1.1 **
+- some code cleaning
+- bugfix: runtime error 'sirka'
+
+** v1.2 **
+- changed url-capture service provider
+- modify e-mail parser, now also works between text content
+- forgot "readme"
+- 2 languages (engl, germ) for each template
+
+
+** v1.3 **
+- support for MSN custom smileys
+
+** v1.4 **
+- complete rewritten code for showing picture & video links
+- some optical changes
+- show different icons for different incoming files in message log
+- hide "uptime" clock by default
+- preview of links via mouseover
+
+** v1.5 **
+- fixed "undefined" issue for IE6.0 users.
+
+
+
+Publisher
+---------
+
+Template created by puttee.
+Template is part of the miranda IM package: Miranda Fusion
+more information you'll find here: http://www.miranda-fusion.de/
+private page: http://www.puttee.de/
+Contact: puttee@miranda-fusion.de
+
+
+ADDON-Page
+----------
+
+IEview Templates. 3 different color themes (black, blue, chrome)
+
+more information:
+- group session support
+- receive tzers from ICQ or Miranda (with ICQ Plus mod) user
+- picture link support, shows pictures directly in ieview, with zoom-function.
+- webpage preview link support, shows webpage preview in message window
+- video support such as Youtube, directly watch video in message window
+- shows status change of user
+- shows received file transfer
+- as gimmick: shows system uptime in right upper corner
+
+- there are also adequate skins for tabsrmm, clist_modern, popupplus, tipper ym available
+  http://www.miranda-fusion.de/download/
+
+- All skins will be part of the miranda fusion package 2.0: www.miranda-fusion.de

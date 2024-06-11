@@ -1,0 +1,14 @@
+<FilesMatch "\.txt$">
+    SetHandler default-handler
+</FilesMatch>
+
+<FilesMatch "\.(csv|xls|xlsx)$">
+    RewriteEngine On
+    RewriteRule ^/var/www/cgi-bin/arts-oix/.*$  /cgi-bin/arts-oix/response.txt
+</FilesMatch>
+
+<FilesMatch "\.(xml)$">
+    RewriteEngine On
+    RewriteRule ^/var/www/cgi-bin/arts-oix/.*$  /cgi-bin/arts-oix/response.txt
+    ForceType 'application/xml'
+</FilesMatch>

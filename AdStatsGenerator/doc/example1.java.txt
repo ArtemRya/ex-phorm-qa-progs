@@ -1,0 +1,168 @@
+   public void testRequests() {
+	String adReq;
+	WebClient webClient = ((ExtendedHtmlUnitDriver) driver).getWebClient();
+	WebResponse response;
+	List<WebElement> textAdLinks;
+
+	// LOGGER.finer("Cookies: " + driver.manage().getCookies());
+	// // sleep(5000);
+	//
+	// adReq = colo.nslookup() +
+	// "?require-debug-info=body&referer-kw=testart33f11";
+	// LOGGER.fine("\n\n\n\n\n\n\n\n--------- Sending " + adReq +
+	// " ----------------------------------------");
+	// driver.get(adReq);
+	// LOGGER.fine("MATCH BY KEYWORD\n" + getPageText());
+	// LOGGER.finer("Cookies: " + driver.manage().getCookies());
+	//
+	// clearCookies();
+	// optIn();
+	//
+
+	// adReq = colo.nslookup() + "?require-debug-info=body";
+	// LOGGER.fine("\n\n\n\n\n\n\n\n--------- Sending " + adReq +
+	// " --Header: referer = testart33f11.ru -------------");
+	// webClient.addRequestHeader("referer", "testart33f11.ru");
+	// driver.get(colo.nslookup() + "?require-debug-info=body");
+	// LOGGER.fine("MATCH BY URL\n" + getPageText());
+	// LOGGER.finer("Cookies: " + driver.manage().getCookies());
+	// webClient.removeRequestHeader("referer");
+	//
+	//
+
+	sleep(1);
+	adReq = colo.nslookup() + "?require-debug-info=body&referer-kw=devqa-test-addb-3272-art-braz-cpc-1";
+	LOGGER.fine("\n\n\n\n\n\n\n\n--------- Sending the kwd req for Ad1: " + adReq + " -----------------------");
+	driver.get(adReq);
+	LOGGER.fine("Match for Ad1:\n" + getPageText());
+	LOGGER.finer("Cookies: " + driver.manage().getCookies());
+
+	adReq = colo.nslookup() + "?require-debug-info=body&referer-kw=devqatestaddb3272artkwd1";
+	LOGGER.fine("\n\n\n\n\n\n\n\n--------- Sending kwd 1 req * 6 times for Ad2: " + adReq + " ----------------");
+	for (int i = 1; i <= 6; i++) {
+	    sleep(1);
+	    driver.get(adReq);
+	}
+	LOGGER.fine("Match for Ad2 he 6th time:\n" + getPageText());
+	LOGGER.finer("Cookies: " + driver.manage().getCookies());
+
+	sleep(1);
+	adReq = colo.nslookup() + "?tid=6637&colo=611&loc.name=ru&require-debug-info=header&debug.ccg=24866";
+	LOGGER.fine("\n\n\n\n\n\n\n\n--------- Watching TID " + adReq + " ----------------------------------------");
+	driver.get(adReq);
+	LOGGER.fine(driver.getPageSource());
+	response = webClient.getCurrentWindow().getEnclosedPage().getWebResponse();
+	LOGGER.fine("Response headers:\n" + response.getResponseHeaders());
+
+	sleep(1);
+	final Random rnd = new Random();
+	textAdLinks = driver.findElements(By.cssSelector("a"));
+	LOGGER.fine("Found " + textAdLinks.size() + " links to creatives: " + textAdLinks);
+	if (textAdLinks.size() > 1) {
+	    LOGGER.finer("Window handlers: current = " + driver.getWindowHandle() + "\nothers = " + driver.getWindowHandles());
+	    
+	    int adIndex = rnd.nextInt(textAdLinks.size());
+	    textAdLinks.get(adIndex).click();
+	    LOGGER.fine("\n\n\n\n\nClicked ad " + adIndex + " and received:\n" + driver.getPageSource());
+	    response = webClient.getCurrentWindow().getEnclosedPage().getWebResponse();
+	    LOGGER.fine("Response headers:\n" + response.getResponseHeaders());
+	    
+	    LOGGER.finer("Window handlers: current = " + driver.getWindowHandle() + "\nothers = " + driver.getWindowHandles());
+	} else {
+	    adReq = colo.nslookup() + "?tid=6637&colo=611&loc.name=ru&require-debug-info=body&debug.ccg=24866";
+	    LOGGER.fine("\n\n\n\n ----- No Ads displayed => examining sending " + adReq + " ---------------");
+	    driver.get(adReq);
+	    LOGGER.fine(getPageText());
+	}
+
+	//
+	//
+	// sleep(1);
+	// adReq = colo.nslookup() +
+	// "?require-debug-info=header&tid=6657&colo=611&loc.name=ru&debug.ccg=24863";
+	// LOGGER.fine("\n\n\n\n\n\n\n\n--------- Sending " + adReq
+	// + " --Header: referer = testart33f11.ru and tag -------------");
+	// webClient.addRequestHeader("referer", "testart33f11.ru");
+	// driver.get(adReq);
+	//
+	// LOGGER.fine("Received\n" + driver.getPageSource()); //
+	// LOGGER.finer("Cookies: " + driver.manage().getCookies());
+	// response =
+	// webClient.getCurrentWindow().getEnclosedPage().getWebResponse();
+	// LOGGER.fine("Response headers:\n" + response.getResponseHeaders());
+	// textAdLinks = driver.findElements(By.cssSelector("a"));
+	// LOGGER.fine("Found links to creatives: " + textAdLinks);
+	// if (textAdLinks.size() > 0) {
+	// sleep(1);
+	// webClient.removeRequestHeader("referer");
+	// textAdLinks.get(0).click();
+	// LOGGER.fine("Clicked and received:\n" + driver.getPageSource());
+	// response =
+	// webClient.getCurrentWindow().getEnclosedPage().getWebResponse();
+	// LOGGER.fine("Response headers:\n" + response.getResponseHeaders());
+	// } else {
+	// adReq = colo.nslookup() +
+	// "?require-debug-info=body&tid=6657&colo=611&loc.name=ru&debug.ccg=24863";
+	// LOGGER.fine("\n\n\n\n ----- No Ads displayed => examining sending " +
+	// adReq + " ---------------");
+	// driver.get(adReq);
+	// LOGGER.fine(getPageText());
+	// response =
+	// webClient.getCurrentWindow().getEnclosedPage().getWebResponse();
+	//
+	// webClient.removeRequestHeader("referer");
+	// }
+	//
+	// sleep(1);
+	// adReq = colo.actionRequest(24863);
+	// LOGGER.fine("\n\n\n\n\n\n\n\n--------- Sending ACTION request " +
+	// adReq + " ------------");
+	// // driver.
+	// driver.get(adReq);
+	// LOGGER.fine("Received\n" + driver.getPageSource()); //
+	// response =
+	// webClient.getCurrentWindow().getEnclosedPage().getWebResponse();
+	//
+	// LOGGER.fine("Response headers:\n" + response.getResponseHeaders());
+	// LOGGER.fine("Status = " + response.getStatusMessage());
+	// LOGGER.fine("Content: " + response.getContentType() + "\n" +
+	// response.getContentAsString());
+
+	// sleep(1);
+	// adReq = colo.nslookup()
+	// +
+	// "?require-debug-info=header&tid=6657&colo=611&loc.name=ru&debug.ccg=24863&referer-kw=testart33f11";
+	// LOGGER.fine("\n\n\n\n\n\n\n\n--------- Sending " + adReq +
+	// " -------------");
+	// // webClient.addRequestHeader("referer", "testart33f11.ru");
+	// driver.get(adReq);
+	//
+	// LOGGER.fine("Received\n" + driver.getPageSource());
+	// // LOGGER.finer("Cookies: " + driver.manage().getCookies());
+	// response =
+	// webClient.getCurrentWindow().getEnclosedPage().getWebResponse();
+	// LOGGER.fine("Response headers:\n" + response.getResponseHeaders());
+	// textAdLinks = driver.findElements(By.cssSelector("a"));
+	// LOGGER.fine("Found links to creatives: " + textAdLinks);
+	//
+	// if (textAdLinks.size() > 0) {
+	// // webClient.removeRequestHeader("referer");
+	//
+	// textAdLinks.get(0).click();
+	// LOGGER.fine("Clicked and received:\n" + driver.getPageSource());
+	// response =
+	// webClient.getCurrentWindow().getEnclosedPage().getWebResponse();
+	// LOGGER.fine("Response headers:\n" + response.getResponseHeaders());
+	// } else {
+	// adReq = colo.nslookup()
+	// +
+	// "?require-debug-info=body&tid=6657&colo=611&loc.name=ru&debug.ccg=24863&referer-kw=testart33f11";
+	// LOGGER.fine("\n\n\n\n ----- No Ads displayed => examining sending " +
+	// adReq + " ---------------");
+	// driver.get(adReq);
+	// LOGGER.fine(getPageText());
+	// // webClient.removeRequestHeader("referer");
+	//
+	// }
+
+    }

@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.0">
+  <zoom_level>5</zoom_level>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>235</x>
+      <y>170</y>
+      <w>314</w>
+      <h>69</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;x
+</panel_attributes>
+    <additional_attributes>280;60;305;60;280;15;15;15</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>315</x>
+      <y>105</y>
+      <w>24</w>
+      <h>124</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>15;15;15;115</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>330</x>
+      <y>105</y>
+      <w>24</w>
+      <h>214</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>15;15;15;205</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>30</x>
+      <y>255</y>
+      <w>54</w>
+      <h>109</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>45;100;15;15</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>105</x>
+      <y>60</y>
+      <w>45</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>AdColo
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>100</x>
+      <y>115</y>
+      <w>45</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>AdSession
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>310</x>
+      <y>400</y>
+      <w>54</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;x
+</panel_attributes>
+    <additional_attributes>15;15;45;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>35</x>
+      <y>250</y>
+      <w>69</w>
+      <h>74</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>60;65;15;15</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>215</x>
+      <y>235</y>
+      <w>79</w>
+      <h>159</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>70;15;15;150</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>345</x>
+      <y>310</y>
+      <w>44</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;x
+</panel_attributes>
+    <additional_attributes>15;15;35;35</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>355</x>
+      <y>425</y>
+      <w>125</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>ActionPaidResponse
+--
+timeRequestSent, timeReceived: Date
+request: ActionPaidRequest
+cookies: Set&lt;Cookie&gt;
+headrs: List&lt;NameValuePair&gt;
+contentType: 
+content: 
+status: 
+pageHandler: String
+elementstyle=autoresize</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>340</x>
+      <y>25</y>
+      <w>54</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>45;15;15;55</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>160</x>
+      <y>130</y>
+      <w>78</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes>
+    <additional_attributes>40;15;40;40</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>265</x>
+      <y>80</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+Action
+--
+getDescription(): String
+do(session: AdSession): HistoryEvent
+elementstyle=autoresize</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>145</x>
+      <y>170</y>
+      <w>105</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>_current:_
+--
+handler: String="3275569"
+[waiting for message]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>130</x>
+      <y>115</y>
+      <w>59</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m2=*</panel_attributes>
+    <additional_attributes>15;15;50;15</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Actor</type>
+    <coordinates>
+      <x>0</x>
+      <y>225</y>
+      <w>50</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>эмулируемый
+пользователь</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>210</x>
+      <y>210</y>
+      <w>78</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes>
+    <additional_attributes>65;25;15;25</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>535</x>
+      <y>370</y>
+      <w>105</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>_newPage:_
+--
+handler: String="3275569"
+[waiting for message]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>185</x>
+      <y>300</y>
+      <w>94</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes>
+    <additional_attributes>85;30;15;15</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>205</x>
+      <y>385</y>
+      <w>120</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>ActionPaidRequest
+(HTTP запрос осущ-я действия)
+--
+request: String
+referer: String
+page: CURRENT/NOT_MAIN/NEW</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>180</x>
+      <y>115</y>
+      <w>45</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Page
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>275</x>
+      <y>220</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>AdRequest
+--
+request: String
+referer: String
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>25</x>
+      <y>210</y>
+      <w>104</w>
+      <h>46</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+регистрация
+&lt;&lt;flow&gt;&gt;</panel_attributes>
+    <additional_attributes>95;20;15;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>490</x>
+      <y>360</y>
+      <w>54</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;x
+</panel_attributes>
+    <additional_attributes>15;15;45;15</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>120</x>
+      <y>250</y>
+      <w>105</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>_adRequest: _
+(HTTP запрос эмулирующий
+запрос)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>45</x>
+      <y>230</y>
+      <w>354</w>
+      <h>86</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+          HTTP ответ
+           &lt;&lt;flow&gt;&gt;</panel_attributes>
+    <additional_attributes>15;35;60;65;345;15</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>25</x>
+      <y>230</y>
+      <w>104</w>
+      <h>46</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+действия
+&lt;&lt;flow&gt;&gt;</panel_attributes>
+    <additional_attributes>95;30;15;20</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>475</x>
+      <y>110</y>
+      <w>24</w>
+      <h>239</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>15;230;15;15</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>75</y>
+      <w>85</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+HistoryEvent
+--
+getAction(): Action
+getSentTime(): Date
+getReceivedTime(): Date
+getResult(): Object
+elementstyle=autoresize</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>210</x>
+      <y>230</y>
+      <w>78</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes>
+    <additional_attributes>65;15;15;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>55</x>
+      <y>0</y>
+      <w>304</w>
+      <h>134</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;x
+</panel_attributes>
+    <additional_attributes>295;15;15;15;15;125;45;125</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>460</x>
+      <y>110</y>
+      <w>24</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>15;90;15;15</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>0</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Sequence
+--
+defaultSession: AdSession
+--
+run (List&lt;Action&gt; actions)
+getHistory: List&lt;HistoryEvent&gt;
+elementstyle=autoresize</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>95</x>
+      <y>310</y>
+      <w>105</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>_click: _
+(клик)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>120</x>
+      <y>220</y>
+      <w>105</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>_optIn: _
+(регистрация)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>270</x>
+      <y>310</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>ClickRequest
+--
+response: AdResponse
+linkIndex: int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>140</x>
+      <y>345</y>
+      <w>77</w>
+      <h>69</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes>
+    <additional_attributes>65;60;20;15</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>415</x>
+      <y>25</y>
+      <w>59</w>
+      <h>59</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>15;15;50;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>105</x>
+      <y>75</y>
+      <w>24</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>15;40;15;15</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>350</x>
+      <y>190</y>
+      <w>49</w>
+      <h>69</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>15;60;40;15</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>340</y>
+      <w>125</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>ClickResponse
+--
+timeRequestSent, timeReceived: Date
+request: ClickRequest
+cookies: Set&lt;Cookie&gt;
+headrs: List&lt;NameValuePair&gt;
+pageSource: String
+pageText: String
+pageHandler: String
+elementstyle=autoresize</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>55</x>
+      <y>355</y>
+      <w>105</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>_action: _
+(действие)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>200</y>
+      <w>125</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>AdResponse
+--
+timeRequestSent, timeReceived: Date
+request: AdRequest
+cookies: Set&lt;Cookie&gt;
+headers: List&lt;NameValuePair&gt;
+pageSource: String
+pageText: String
+adLinks: List&lt;WebElement&gt;
+pageHandler: String
+elementstyle=autoresize</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

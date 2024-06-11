@@ -1,0 +1,13 @@
+icons:      Enthält alle Icons, die vor und hinter Links und im Anzeigebereich benötigt werden
+skripte:    verschiene Skripte zur optischen Veränderung
+tZersFiles: Bilder und Animationen der tZers
+
+
+>>> in der "config.js" einstellen <<<
+anims:      einige optische Spielereien für das Chatfenster, nicht jeder DOCTYPE kann damit umgehen
+clocks:     einige Uhren im Flash Format
+
+
+>>> in der "config.css" einstellen <<<
+cursor:     verschiedene Cursor für Normal- und für Klickbereiche
+

@@ -1,0 +1,2520 @@
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    ENSWITCH set*********************************************
+action=EnswitchAction []
+actionTime=Thu Apr 24 19:38:59 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[]
+
+pageSource=<?xml version="1.0" encoding="ISO-8859-1"?>
+<html>
+  <head>
+    <title>
+      enswitch
+    </title>
+  </head>
+  <body>
+    <form method="post" action="/" enctype="multipart/form-data">
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+      <h3>
+        Welcome 192.168.1.67, there is 'direct' on your way
+      </h3>
+      Choose your next steps through:
+      <br/>
+      <label>
+        <input type="radio" name="tenv" value="default"/>
+        default (apm5)
+      </label>
+      <br/>
+      <label>
+        <input type="radio" name="tenv" value="direct" checked="checked"/>
+        direct
+      </label>
+      <br/>
+      <label>
+        <input type="radio" name="tenv" value="apm1"/>
+        bt (apm1)
+      </label>
+      <br/>
+      <label>
+        <input type="radio" name="tenv" value="apm2"/>
+        auk (apm2)
+      </label>
+      <br/>
+      <label>
+        <input type="radio" name="tenv" value="apm3"/>
+        kt (apm3)
+      </label>
+      <br/>
+      <label>
+        <input type="radio" name="tenv" value="apm4"/>
+        prestage (apm4)
+      </label>
+      <br/>
+      <label>
+        <input type="radio" name="tenv" value="apm6"/>
+        emergency (apm6)
+      </label>
+      <br/>
+      <label>
+        <input type="radio" name="tenv" value="apm7"/>
+        webindex (apm7)
+      </label>
+      <br/>
+      <label>
+        <input type="radio" name="tenv" value="rnodes"/>
+        Rnodes
+      </label>
+      <br/>
+      <label>
+        <input type="radio" name="tenv" value="dnodes"/>
+        Dnodes
+      </label>
+      <br/>
+      <label>
+        <input type="radio" name="tenv" value="apm8"/>
+        emergency2 (apm8)
+      </label>
+      <br/>
+      <label>
+        <input type="radio" name="tenv" value="prof2"/>
+        prof2
+      </label>
+      <br/>
+      <label>
+        <input type="radio" name="tenv" value="apm9"/>
+        apm9
+      </label>
+      <br/>
+      <input type="submit" name=".submit"/>
+      <div>
+        <input type="hidden" name=".cgifields" value="tenv"/>
+      </div>
+    </form>
+    <hr/>
+    <a target="_blank" href="https://confluence.ocslab.com/display/QA172/DataCapture+configuration">
+      Data Capture production configurations
+      <br/>
+    </a>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    OPT_IN*********************************************
+action=OptInAction []
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=DdOoX_SyQzS526ZkiVrGowyRRpl3cQ6ylxQkpUIU8OMfRkTs2RPN3ciLuDxz2HDYE; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = DdOoX_SyQzS526ZkiVrGow..;
+signed_uid = DdOoX_SyQzS526ZkiVrGowyRRpl3cQ6ylxQkpUIU8OMfRkTs2RPN3ciLuDxz2HDYE;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:005197 (sec:usec) : 0:000068 (sec:usec), 0:000019 (sec:usec), 0:000020 (sec:usec);
+request_fill_time = 0:000201 (sec:usec);
+history_match_time = 0:001140 (sec:usec) : 0:000372 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000083 (sec:usec);
+history_post_match_time = 0:000001 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    comment action*********************************************
+action=CommentAction [level=1, headerText=kw=testart33f11, type=HEADER]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    AdRequest*********************************************
+action=AdRequest [
+adProtocolString=require-debug-info=body&referer-kw=testart33f11, ]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=DdOoX_SyQzS526ZkiVrGowyRRpl3cQ6ylxQkpUIU8OMfRkTs2RPN3ciLuDxz2HDYE; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = DdOoX_SyQzS526ZkiVrGow..;
+signed_uid = DdOoX_SyQzS526ZkiVrGowyRRpl3cQ6ylxQkpUIU8OMfRkTs2RPN3ciLuDxz2HDYE;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 2014-04-24 15:39:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:001345 (sec:usec) : 0:000032 (sec:usec), 0:000038 (sec:usec), 0:000029 (sec:usec);
+request_fill_time = 0:000140 (sec:usec);
+history_match_time = 0:000718 (sec:usec) : 0:000105 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000081 (sec:usec);
+history_post_match_time = 0:000001 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+statusMessage=
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    Clear Cookies*********************************************
+action=ClearCookiesAction []
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = DdOoX_SyQzS526ZkiVrGow..;
+signed_uid = DdOoX_SyQzS526ZkiVrGowyRRpl3cQ6ylxQkpUIU8OMfRkTs2RPN3ciLuDxz2HDYE;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 2014-04-24 15:39:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:001345 (sec:usec) : 0:000032 (sec:usec), 0:000038 (sec:usec), 0:000029 (sec:usec);
+request_fill_time = 0:000140 (sec:usec);
+history_match_time = 0:000718 (sec:usec) : 0:000105 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000081 (sec:usec);
+history_post_match_time = 0:000001 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    OPT_IN*********************************************
+action=OptInAction []
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=8J3V4E_8ScqANeTbq-rfagsz4xhzkAFrcnp7E1NveP1WFrM1d9g7CGLeT2tkBlOp4; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = 8J3V4E_8ScqANeTbq-rfag..;
+signed_uid = 8J3V4E_8ScqANeTbq-rfagsz4xhzkAFrcnp7E1NveP1WFrM1d9g7CGLeT2tkBlOp4;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:001059 (sec:usec) : 0:000010 (sec:usec), 0:000009 (sec:usec), 0:000009 (sec:usec);
+request_fill_time = 0:000123 (sec:usec);
+history_match_time = 0:001636 (sec:usec) : 0:000359 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000083 (sec:usec);
+history_post_match_time = 0:000000 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    comment action*********************************************
+action=CommentAction [level=1, headerText=testart33f11.ru as a referer header, type=HEADER]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    AdRequest*********************************************
+action=AdRequest [
+adProtocolString=?require-debug-info=body, referer=testart33f11.ru]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=8J3V4E_8ScqANeTbq-rfagsz4xhzkAFrcnp7E1NveP1WFrM1d9g7CGLeT2tkBlOp4; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = 8J3V4E_8ScqANeTbq-rfag..;
+signed_uid = 8J3V4E_8ScqANeTbq-rfagsz4xhzkAFrcnp7E1NveP1WFrM1d9g7CGLeT2tkBlOp4;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:001059 (sec:usec) : 0:000010 (sec:usec), 0:000009 (sec:usec), 0:000009 (sec:usec);
+request_fill_time = 0:000123 (sec:usec);
+history_match_time = 0:001636 (sec:usec) : 0:000359 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000083 (sec:usec);
+history_post_match_time = 0:000000 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+statusMessage=
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    Clear Cookies*********************************************
+action=ClearCookiesAction []
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = 8J3V4E_8ScqANeTbq-rfag..;
+signed_uid = 8J3V4E_8ScqANeTbq-rfagsz4xhzkAFrcnp7E1NveP1WFrM1d9g7CGLeT2tkBlOp4;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:001059 (sec:usec) : 0:000010 (sec:usec), 0:000009 (sec:usec), 0:000009 (sec:usec);
+request_fill_time = 0:000123 (sec:usec);
+history_match_time = 0:001636 (sec:usec) : 0:000359 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000083 (sec:usec);
+history_post_match_time = 0:000000 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    OPT_IN*********************************************
+action=OptInAction []
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = hkLzpC3VQ6GRYsVhTv6G6g..;
+signed_uid = hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:001036 (sec:usec) : 0:000008 (sec:usec), 0:000010 (sec:usec), 0:000010 (sec:usec);
+request_fill_time = 0:000137 (sec:usec);
+history_match_time = 0:000740 (sec:usec) : 0:000373 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000092 (sec:usec);
+history_post_match_time = 0:000001 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    comment action*********************************************
+action=CommentAction [level=1, headerText=2 Text Ad Creatives (6+1 channel matches) and click result, type=HEADER]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    AdRequest*********************************************
+action=AdRequest [
+adProtocolString=?require-debug-info=body&referer-kw=devqa-test-addb-3272-art-braz-cpc-1, ]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = hkLzpC3VQ6GRYsVhTv6G6g..;
+signed_uid = hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:001036 (sec:usec) : 0:000008 (sec:usec), 0:000010 (sec:usec), 0:000010 (sec:usec);
+request_fill_time = 0:000137 (sec:usec);
+history_match_time = 0:000740 (sec:usec) : 0:000373 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000092 (sec:usec);
+history_post_match_time = 0:000001 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+statusMessage=
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    comment action*********************************************
+action=CommentAction [level=1, headerText=6 matches begins, type=COMMENT]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    AdRequest*********************************************
+action=AdRequest [
+adProtocolString=?require-debug-info=body&referer-kw=devqatestaddb3272artkwd1, ]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = hkLzpC3VQ6GRYsVhTv6G6g..;
+signed_uid = hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:001036 (sec:usec) : 0:000008 (sec:usec), 0:000010 (sec:usec), 0:000010 (sec:usec);
+request_fill_time = 0:000137 (sec:usec);
+history_match_time = 0:000740 (sec:usec) : 0:000373 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000092 (sec:usec);
+history_post_match_time = 0:000001 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+statusMessage=
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    AdRequest*********************************************
+action=AdRequest [
+adProtocolString=?require-debug-info=body&referer-kw=devqatestaddb3272artkwd1, ]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = hkLzpC3VQ6GRYsVhTv6G6g..;
+signed_uid = hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:001036 (sec:usec) : 0:000008 (sec:usec), 0:000010 (sec:usec), 0:000010 (sec:usec);
+request_fill_time = 0:000137 (sec:usec);
+history_match_time = 0:000740 (sec:usec) : 0:000373 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000092 (sec:usec);
+history_post_match_time = 0:000001 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+statusMessage=
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    AdRequest*********************************************
+action=AdRequest [
+adProtocolString=?require-debug-info=body&referer-kw=devqatestaddb3272artkwd1, ]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = hkLzpC3VQ6GRYsVhTv6G6g..;
+signed_uid = hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:001036 (sec:usec) : 0:000008 (sec:usec), 0:000010 (sec:usec), 0:000010 (sec:usec);
+request_fill_time = 0:000137 (sec:usec);
+history_match_time = 0:000740 (sec:usec) : 0:000373 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000092 (sec:usec);
+history_post_match_time = 0:000001 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+statusMessage=
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    AdRequest*********************************************
+action=AdRequest [
+adProtocolString=?require-debug-info=body&referer-kw=devqatestaddb3272artkwd1, ]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = hkLzpC3VQ6GRYsVhTv6G6g..;
+signed_uid = hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:001036 (sec:usec) : 0:000008 (sec:usec), 0:000010 (sec:usec), 0:000010 (sec:usec);
+request_fill_time = 0:000137 (sec:usec);
+history_match_time = 0:000740 (sec:usec) : 0:000373 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000092 (sec:usec);
+history_post_match_time = 0:000001 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+statusMessage=
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    AdRequest*********************************************
+action=AdRequest [
+adProtocolString=?require-debug-info=body&referer-kw=devqatestaddb3272artkwd1, ]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = hkLzpC3VQ6GRYsVhTv6G6g..;
+signed_uid = hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:001036 (sec:usec) : 0:000008 (sec:usec), 0:000010 (sec:usec), 0:000010 (sec:usec);
+request_fill_time = 0:000137 (sec:usec);
+history_match_time = 0:000740 (sec:usec) : 0:000373 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000092 (sec:usec);
+history_post_match_time = 0:000001 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+statusMessage=
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    AdRequest*********************************************
+action=AdRequest [
+adProtocolString=?require-debug-info=body&referer-kw=devqatestaddb3272artkwd1, ]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = hkLzpC3VQ6GRYsVhTv6G6g..;
+signed_uid = hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:001036 (sec:usec) : 0:000008 (sec:usec), 0:000010 (sec:usec), 0:000010 (sec:usec);
+request_fill_time = 0:000137 (sec:usec);
+history_match_time = 0:000740 (sec:usec) : 0:000373 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000092 (sec:usec);
+history_post_match_time = 0:000001 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+statusMessage=
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    AdRequest*********************************************
+action=AdRequest [
+adProtocolString=?tid=6637&colo=611&loc.name=ru&require-debug-info=header&debug.ccg=24866, ]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = hkLzpC3VQ6GRYsVhTv6G6g..;
+signed_uid = hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:001036 (sec:usec) : 0:000008 (sec:usec), 0:000010 (sec:usec), 0:000010 (sec:usec);
+request_fill_time = 0:000137 (sec:usec);
+history_match_time = 0:000740 (sec:usec) : 0:000373 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000092 (sec:usec);
+history_post_match_time = 0:000001 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+statusMessage=
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    comment action*********************************************
+action=CommentAction [level=1, headerText=try to click random creative or give debug.ccg, type=COMMENT]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    ClickAction [random ad]*********************************************
+action=ClickAction [random ad]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+
+pageSource=Links: []
+
+
+statusMessage=>> No links are found, no click can be done!
+successful=false
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    AdRequest*********************************************
+action=AdRequest [
+adProtocolString=?tid=6637&colo=611&loc.name=ru&require-debug-info=body&debug.ccg=24866, ]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ru//;
+referer = ;
+uid = hkLzpC3VQ6GRYsVhTv6G6g..;
+signed_uid = hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = true;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 1970-01-01 00:00:00;
+session_start = 1970-01-01 00:00:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 611;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:000000 (sec:usec) : ;
+request_fill_time = 0:000091 (sec:usec);
+history_match_time = 0:000000 (sec:usec) : 0:000000 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000097 (sec:usec);
+history_post_match_time = 0:000000 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+statusMessage=
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    AdRequest*********************************************
+action=AdRequest [
+adProtocolString=?require-debug-info=body&tid=6657&colo=611&loc.name=ru&debug.ccg=24863, ]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ru//;
+referer = ;
+uid = hkLzpC3VQ6GRYsVhTv6G6g..;
+signed_uid = hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = true;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 1970-01-01 00:00:00;
+session_start = 1970-01-01 00:00:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 611;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:000000 (sec:usec) : ;
+request_fill_time = 0:000091 (sec:usec);
+history_match_time = 0:000000 (sec:usec) : 0:000000 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000097 (sec:usec);
+history_post_match_time = 0:000000 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+statusMessage=
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    comment action*********************************************
+action=CommentAction [level=1, headerText=ACTION! (paid), type=HEADER]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    Clear Cookies*********************************************
+action=ClearCookiesAction []
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ru//;
+referer = ;
+uid = hkLzpC3VQ6GRYsVhTv6G6g..;
+signed_uid = hkLzpC3VQ6GRYsVhTv6G6go7q6gQWpTjf9Z7bg52fv5uZczjS6V05AxSGwgQLFfWE;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = true;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 1970-01-01 00:00:00;
+session_start = 1970-01-01 00:00:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 611;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:000000 (sec:usec) : ;
+request_fill_time = 0:000091 (sec:usec);
+history_match_time = 0:000000 (sec:usec) : 0:000000 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000097 (sec:usec);
+history_post_match_time = 0:000000 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    OPT_IN*********************************************
+action=OptInAction []
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=3_JtLpc7RdKlQrbcH-TJrw0Twxfq7gXlMpWg9umDokTHmji8fZ3TuWsYXsWhXRBdI; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = 3_JtLpc7RdKlQrbcH-TJrw..;
+signed_uid = 3_JtLpc7RdKlQrbcH-TJrw0Twxfq7gXlMpWg9umDokTHmji8fZ3TuWsYXsWhXRBdI;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:007020 (sec:usec) : 0:000021 (sec:usec), 0:000090 (sec:usec), 0:000016 (sec:usec);
+request_fill_time = 0:000184 (sec:usec);
+history_match_time = 0:001024 (sec:usec) : 0:000318 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000116 (sec:usec);
+history_post_match_time = 0:000000 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    AdRequest*********************************************
+action=AdRequest [
+adProtocolString=?require-debug-info=header&tid=6657&colo=611&loc.name=ru&debug.ccg=24863, referer=testart33f11.ru]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=3_JtLpc7RdKlQrbcH-TJrw0Twxfq7gXlMpWg9umDokTHmji8fZ3TuWsYXsWhXRBdI; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = 3_JtLpc7RdKlQrbcH-TJrw..;
+signed_uid = 3_JtLpc7RdKlQrbcH-TJrw0Twxfq7gXlMpWg9umDokTHmji8fZ3TuWsYXsWhXRBdI;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:007020 (sec:usec) : 0:000021 (sec:usec), 0:000090 (sec:usec), 0:000016 (sec:usec);
+request_fill_time = 0:000184 (sec:usec);
+history_match_time = 0:001024 (sec:usec) : 0:000318 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000116 (sec:usec);
+history_post_match_time = 0:000000 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+statusMessage=
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    ClickAction [ccid=83115]*********************************************
+action=ClickAction [ccid=83115]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+
+pageSource=Links: []
+
+
+statusMessage=>> No links are found, no click can be done!
+successful=false
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    AdRequest*********************************************
+action=AdRequest [
+adProtocolString=?require-debug-info=body&tid=6657&colo=611&loc.name=ru&debug.ccg=24863, ]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=3_JtLpc7RdKlQrbcH-TJrw0Twxfq7gXlMpWg9umDokTHmji8fZ3TuWsYXsWhXRBdI; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <pre>
+      
+
+=== Request params ===
+server-id = nnode0;
+time = 2014-04-24 15:39:00;
+user_status = optin;
+tid = 0;
+ext_tag_id = ;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+ccid = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = 3_JtLpc7RdKlQrbcH-TJrw..;
+signed_uid = 3_JtLpc7RdKlQrbcH-TJrw0Twxfq7gXlMpWg9umDokTHmji8fZ3TuWsYXsWhXRBdI;
+temporary_uid = ;
+household_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+search_engine_id = 0;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 3459904, 5393168;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+content_channels = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2014-04-24 15:39:00;
+session_start = 2014-04-24 15:39:00;
+history_channels = ;
+household_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+colo_id = 1;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+user_group_id = 0;
+geo_channels = ;
+device_channels = 3459911,3751368,5393178,5397085,5397088,5505968;
+last_device_channel_id = 5505968;
+random = 10000000;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+
+=== Time Metering ===
+trigger_match_time = 0:007020 (sec:usec) : 0:000021 (sec:usec), 0:000090 (sec:usec), 0:000016 (sec:usec);
+request_fill_time = 0:000184 (sec:usec);
+history_match_time = 0:001024 (sec:usec) : 0:000318 (sec:usec);
+creative_selection_time = 0:000000 (sec:usec): 0:000116 (sec:usec);
+history_post_match_time = 0:000000 (sec:usec);
+
+    </pre>
+  </body>
+</html>
+
+
+
+windowHandle=26252443
+statusMessage=
+successful=true
+=======================================================
+
+апр 24, 2014 7:39:01 PM com.phorm.qa.ad_stats_generator.sequence.log.SimpleLogger log
+INFO: 
+
+
+
+
+
+
+
+
+
+***************************    do Paid CCG ACTION*********************************************
+action=PaidActionRequest [creativeGroupId=24863, ]
+actionTime=Thu Apr 24 19:39:01 MSK 2014
+responseTime=Thu Apr 24 19:39:01 MSK 2014
+cookies=[uid=3_JtLpc7RdKlQrbcH-TJrw0Twxfq7gXlMpWg9umDokTHmji8fZ3TuWsYXsWhXRBdI; expires=Пт, 24 апр 2015 07:39:00 MSK; path=/; domain=.oix-rubytest.net]
+
+pageSource=GIF89a      ÿÿÿ,       L ;
+
+
+windowHandle=26252443
+statusMessage== Paid Action Info = Content Type = image/gif; Content = GIF89a      ÿÿÿ,       L ;
+successful=true
+=======================================================
+

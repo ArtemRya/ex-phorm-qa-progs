@@ -1,0 +1,1 @@
+del tmp\*.* tmp\html\*.*

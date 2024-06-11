@@ -1,0 +1,215 @@
+15:24:50.489 +0 [INFO] Starting at Fri Mar 22 15:24:50 MSK 2013
+15:24:52.189 +1 [FINE] Opt In result:
+=== Request params ===
+server-id = snode0;
+time = 2013-03-22 12:24:57;
+user_status = optin;
+tid = 0;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = B3M2heQXQZWZfu2ExsqCKA..;
+signed_uid = B3M2heQXQZWZfu2ExsqCKAXdSSVu87nPax9AZBnzWd1Lw7cqDenZYee1_UArVLCUk;
+temporary_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 1156235;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+;
+content_channels = ;
+search_unmatched = ;
+page_unmatched = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2013-03-22 12:24:57;
+session_start = 2013-03-22 12:24:57;
+history_channels = ;
+partly_from_to_history_channels = ;
+partly_now_to_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+colo_id = 84;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+imp_revenue = 0.0;
+click_revenue = 0.0;
+action_revenue = 0.0;
+min_no_adv_ecpm = 0;
+no_adv_margin_rule = ;
+min_text_ecpm = 0;
+text_margin_rule = ;
+test_request = 0;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+passback_url = ;
+passback_app_format = html;
+track_pixel_url = ;
+cpm_threshold = 0;
+walled_garden = 0;
+user_group_id = 33;
+geo_channels = ;
+device_channels = 1156242,1737775;
+last_device_channel_id = 1737775;
+selected_creatives = ;
+
+=== Time Metering ===
+trigger_match_time = 0:000457 (sec:usec) : 0:000022 (sec:usec);
+full_text_match_time = 0:000000 (sec:usec);
+request_fill_time = 0:000235 (sec:usec);
+history_match_time = 0:001192 (sec:usec) : 0:000441 (sec:usec);
+creative_selection_time = 0:001806 (sec:usec): 0:000108 (sec:usec);
+history_post_match_time = 0:000001 (sec:usec);
+15:24:53.187 +0 [FINE] 
+
+
+
+
+
+
+
+--------- Sending http://a.oix-stage.net/services/nslookup?require-debug-info=header&tid=6657&colo=611&loc.name=ru&debug.ccg=24863 --Header: referer = testart33f11.ru and tag -------------
+15:24:53.218 +0 [FINE] Received
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  </head>
+  <body style="margin:0; padding:0; overflow:hidden;">
+    <a href="http://a.oix-stage.net/services/AdClickServer/ccid*eql*83115*amp*requestid*eql*RjTAqnTPSH27koEOx0TaYA..*amp*h*eql*351" target="_blank">
+      <img src="http://f.oixcrv-stage.net/creatives/5545/opera_devka.jpg" width="100%" height="100%" alt="ADDB-3291 250x250 operaAndrDevka" title="ADDB-3291 250x250 operaAndrDevka" style="border:0 none;"/>
+    </a>
+    <script type="text/javascript" charset="UTF-8">
+//<![CDATA[
+
+(function () {
+(function () {
+var o=[], p=['', '', '', ''];
+for (var i=0; i<p.length; i++) if (p[i]) {o[i]=new Image(); o[i].src=p[i];}
+window.zd47fo = o;
+})();
+//]]>
+    </script>
+    <script type="text/javascript" charset="UTF-8">
+//<![CDATA[
+
+if ('No'.toLowerCase()=='yes')
+document.write('<div style="width:12px; height:12px; position:absolute; right:5px; bottom:5px; z-index:10; border:1px solid #551A8B; font:bold 10px monospace; text-align:center; background-color:white; overflow:hidden;">'+
+'<a style="text-decoration:none;" target="_blank" href="http://www.oix.net">i</a>'+
+'</div>')
+
+//]]>
+    </script>
+  </body>
+</html>
+
+15:24:53.234 +0 [FINER] Cookies: [uid=B3M2heQXQZWZfu2ExsqCKAXdSSVu87nPax9AZBnzWd1Lw7cqDenZYee1_UArVLCUk; expires=—б, 22 мар 2014 03:24:58 MSK; path=/; domain=.oix-stage.net]
+15:24:53.234 +0 [FINE] Response headers:
+[Date=Fri, 22 Mar 2013 12:24:58 GMT, Server=Apache, Debug-Info=server-id = snode0; time = 2013-03-22 12:24:58; user_status = optin; tid = 6657; request_id = ZZmHiJ32SHmHqXf6CTzEBg..; page_load_id = 0; test_request = 0; log_as_test = 0; location = ru//; referer = http://testart33f11.ru/; uid = B3M2heQXQZWZfu2ExsqCKA..; signed_uid = B3M2heQXQZWZfu2ExsqCKAXdSSVu87nPax9AZBnzWd1Lw7cqDenZYee1_UArVLCUk; temporary_uid = ; ip = 192.168.3.206; search-phrase = ; do_passback = false; colocation_passback = false; browser = IE 7.0; platform = windows; full_platform = windows nt 5.1; platform_ids = 1156235; special_channels_effects = TRACK, ADV; triggers = ( testart33f11.ru :: 1737999U :: 15487669) ; trigger_channels = 1737999U; ; content_channels = 1737999(1); ccg_keywords =; search_unmatched = ; page_unmatched = ; last_request_time = 2013-03-22 12:24:57; create_time = 2013-03-22 12:24:57; session_start = 2013-03-22 12:24:57; history_channels = 1737999; partly_from_to_history_channels = ; partly_now_to_history_channels = ; full_freq_caps = ; full_virtual_freq_caps = ; fraud_request = false; ccid = 83115; cmpid = 24863; creative_size = 250x250; mime_format = text/html; colo_id = 611; tag_id = 6657; site_id = 4277; site_rate_id = 7288; imp_revenue = 0.0; click_revenue = 0.0; action_revenue = 100.0; min_no_adv_ecpm = 10; no_adv_margin_rule = ; min_text_ecpm = 5139; text_margin_rule = ; test_request = 0; freq-caps = ; uc-freq-caps = ; v-freq-caps = ; passback_url = ; passback_app_format = html; track_pixel_url = ; cpm_threshold = 5139; walled_garden = 0; user_group_id = 33; geo_channels = ; device_channels = 1156242,1737775; last_device_channel_id = 1737775; selected_creatives = ( request_id = RjTAqnTPSH27koEOx0TaYA..; ccid = 83115; cmp_id = 24863; triggered_expression = 1737999; ecpm = 5139; ecpm_bid = 5139; click_url = http://a.oix-stage.net/services/AdClickServer/ccid*eql*83115*amp*requestid*eql*RjTAqnTPSH27koEOx0TaYA..*amp*h*eql*351; html_url = ; action_adv_url = http://a.oix-stage.net/services/ActionServer/cid*eql*24863; revenue = 0.0; imp_revenue = 0.0; click_revenue = 0.0; action_revenue = 100.0; margin_rule_id = ) ; trigger_match_time = 0:000515 (sec:usec) : 0:000081 (sec:usec); full_text_match_time = 0:000000 (sec:usec); request_fill_time = 0:000159 (sec:usec); history_match_time = 0:001079 (sec:usec) : 0:000209 (sec:usec); creative_selection_time = 0:002050 (sec:usec): 0:001005 (sec:usec); history_post_match_time = 0:000000 (sec:usec);, Cache-Control=no-store, no-cache, Set-Cookie=uid=B3M2heQXQZWZfu2ExsqCKAXdSSVu87nPax9AZBnzWd1Lw7cqDenZYee1_UArVLCUk; expires=Sat, 22-Mar-2014 12:24:58 GMT; domain=.oix-stage.net; path=/, P3P=CP="NON COR PSAo PSDo OUR BUS UNI STA PRE", Content-Length=1134, Keep-Alive=timeout=5, max=97, Connection=Keep-Alive, Content-Type=text/html]
+15:24:53.234 +0 [FINE] Found links to creatives: [<a href="http://a.oix-stage.net/services/AdClickServer/ccid*eql*83115*amp*requestid*eql*RjTAqnTPSH27koEOx0TaYA..*amp*h*eql*351" target="_blank">]
+15:24:55.947 +2 [FINE] Clicked and received:
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  </head>
+  <body style="margin:0; padding:0; overflow:hidden;">
+    <a href="http://a.oix-stage.net/services/AdClickServer/ccid*eql*83115*amp*requestid*eql*RjTAqnTPSH27koEOx0TaYA..*amp*h*eql*351" target="_blank">
+      <img src="http://f.oixcrv-stage.net/creatives/5545/opera_devka.jpg" width="100%" height="100%" alt="ADDB-3291 250x250 operaAndrDevka" title="ADDB-3291 250x250 operaAndrDevka" style="border:0 none;"/>
+    </a>
+    <script type="text/javascript" charset="UTF-8">
+//<![CDATA[
+
+(function () {
+(function () {
+var o=[], p=['', '', '', ''];
+for (var i=0; i<p.length; i++) if (p[i]) {o[i]=new Image(); o[i].src=p[i];}
+window.zd47fo = o;
+})();
+//]]>
+    </script>
+    <script type="text/javascript" charset="UTF-8">
+//<![CDATA[
+
+if ('No'.toLowerCase()=='yes')
+document.write('<div style="width:12px; height:12px; position:absolute; right:5px; bottom:5px; z-index:10; border:1px solid #551A8B; font:bold 10px monospace; text-align:center; background-color:white; overflow:hidden;">'+
+'<a style="text-decoration:none;" target="_blank" href="http://www.oix.net">i</a>'+
+'</div>')
+
+//]]>
+    </script>
+  </body>
+</html>
+
+15:24:55.947 +0 [FINE] Response headers:
+[Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=Fri, 01 Jan 1990 00:00:00 GMT, Date=Fri, 22 Mar 2013 12:25:00 GMT, Content-Type=text/html; charset=UTF-8, X-Content-Type-Options=nosniff, X-Frame-Options=SAMEORIGIN, X-XSS-Protection=1; mode=block, Server=GSE, Transfer-Encoding=chunked]
+15:24:56.946 +0 [FINE] 
+
+
+
+
+
+
+
+--------- Sending ACTION request http://a.oix-stage.net/services/ActionServer/cid*eql*24863 ------------
+15:24:56.946 +0 [FINE] Received
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  </head>
+  <body style="margin:0; padding:0; overflow:hidden;">
+    <a href="http://a.oix-stage.net/services/AdClickServer/ccid*eql*83115*amp*requestid*eql*RjTAqnTPSH27koEOx0TaYA..*amp*h*eql*351" target="_blank">
+      <img src="http://f.oixcrv-stage.net/creatives/5545/opera_devka.jpg" width="100%" height="100%" alt="ADDB-3291 250x250 operaAndrDevka" title="ADDB-3291 250x250 operaAndrDevka" style="border:0 none;"/>
+    </a>
+    <script type="text/javascript" charset="UTF-8">
+//<![CDATA[
+
+(function () {
+(function () {
+var o=[], p=['', '', '', ''];
+for (var i=0; i<p.length; i++) if (p[i]) {o[i]=new Image(); o[i].src=p[i];}
+window.zd47fo = o;
+})();
+//]]>
+    </script>
+    <script type="text/javascript" charset="UTF-8">
+//<![CDATA[
+
+if ('No'.toLowerCase()=='yes')
+document.write('<div style="width:12px; height:12px; position:absolute; right:5px; bottom:5px; z-index:10; border:1px solid #551A8B; font:bold 10px monospace; text-align:center; background-color:white; overflow:hidden;">'+
+'<a style="text-decoration:none;" target="_blank" href="http://www.oix.net">i</a>'+
+'</div>')
+
+//]]>
+    </script>
+  </body>
+</html>
+
+15:24:56.946 +0 [FINE] Response headers:
+[Date=Fri, 22 Mar 2013 12:25:02 GMT, Server=Apache, Cache-Control=no-store, no-cache, Content-Length=35, Keep-Alive=timeout=5, max=95, Connection=Keep-Alive, Content-Type=image/gif]
+15:24:56.946 +0 [FINE] Status = OK
+15:24:57.008 +0 [FINE] Content: image/gif
+GIF89a

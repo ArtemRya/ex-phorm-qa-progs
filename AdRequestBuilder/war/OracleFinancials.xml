@@ -1,0 +1,77 @@
+<OracleFinancials>
+	<request>
+		<testcase>Test 1.1. Invoice creation, Invoicing Period Start and End dates to invoice</testcase>
+		<result></result>
+		<tid></tid>
+		<referer-kw></referer-kw>
+		<referer></referer>
+		<colo></colo>
+		<require-debug-info>body</require-debug-info>
+		<country></country>
+		<glbfcap>0</glbfcap>
+		<setuid>yes</setuid>
+		<click>0</click>
+		<repeat>1</repeat>
+		<cleare-cookie>0</cleare-cookie>
+	</request>
+	<request>
+		<testcase>Test 1.1. Invoice creation, Invoicing Period Start and End dates to invoice</testcase>
+		<result></result>
+		<tid>9097</tid>
+		<referer-kw></referer-kw>
+		<referer>idsf.net</referer>
+		<colo>3069</colo>
+		<require-debug-info>header</require-debug-info>
+		<country>gb</country>
+		<glbfcap>0</glbfcap>
+		<setuid>no</setuid>
+		<click>0</click>
+		<repeat>1</repeat>
+		<cleare-cookie>0</cleare-cookie>
+	</request>
+	<request>
+		<testcase>Test 1.5.2. Invoice Generation test</testcase>
+		<result></result>
+		<tid></tid>
+		<referer-kw></referer-kw>
+		<referer></referer>
+		<colo></colo>
+		<require-debug-info>body</require-debug-info>
+		<country></country>
+		<glbfcap>0</glbfcap>
+		<setuid>yes</setuid>
+		<click>0</click>
+		<repeat>1</repeat>
+		<cleare-cookie>0</cleare-cookie>
+	</request>
+	<request>
+		<testcase>Test 1.5.2. Invoice Generation test</testcase>
+		<result></result>
+		<tid>199950</tid>
+		<referer-kw></referer-kw>
+		<referer>www.midwestconstructionlaw.com/Articles/non-payment.htm</referer>
+		<colo></colo>
+		<require-debug-info>header</require-debug-info>
+		<country>us</country>
+		<glbfcap>0</glbfcap>
+		<setuid>no</setuid>
+		<click>0</click>
+		<repeat>1</repeat>
+		<cleare-cookie>0</cleare-cookie>
+	</request>
+	<request>
+		<testcase>Test 1.6.2. Ordinary Agency</testcase>
+		<result></result>
+		<tid> </tid>
+		<referer-kw>testaddb2811</referer-kw>
+		<referer></referer>
+		<colo> </colo>
+		<require-debug-info>body</require-debug-info>
+		<country> </country>
+		<glbfcap>0</glbfcap>
+		<setuid>yes</setuid>
+		<click>0</click>
+		<repeat>1</repeat>
+		<cleare-cookie>0</cleare-cookie>
+	</request>
+</OracleFinancials>

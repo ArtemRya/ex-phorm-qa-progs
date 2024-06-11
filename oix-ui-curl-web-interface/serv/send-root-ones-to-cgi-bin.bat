@@ -1,0 +1,1 @@
+H:\Programs\PuTTY\pscp.exe -pw artryab2008 ..\*.py ..\template.htm artem_ryabov@vauto:/var/www/cgi-bin/oix-ui-curl-web-interface-33

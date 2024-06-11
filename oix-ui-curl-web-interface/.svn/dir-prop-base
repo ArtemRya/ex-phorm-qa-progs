@@ -1,0 +1,22 @@
+K 14
+bugtraq:number
+V 4
+true
+K 10
+svn:ignore
+V 156
+.project
+.pydevproject
+.settings
+HmacSHA1.jar
+all to vauto.lnk
+hmacsha1.py
+send to vauto.bat
+tmp
+cmdHere.bat
+svn stuff.txt
+qa.ui.webServices.logo.png
+
+serv
+
+END

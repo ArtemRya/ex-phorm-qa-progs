@@ -1,0 +1,27 @@
+!OBSOLETE - goes to SearchEngines project!
+
+
+To run the test on Windows you need
+
+1. some java installed
+
+2. For **FireFox**:
+it's PROBABLY needed to include folder with firefox.exe to the PATH variable (you can select preferrable version of FireFox this way if needed)
+
+3. Check test.properties file in the logs folder:
+3.1. set your actual IP in 'OPT_IN_IP' parameter
+3.2 if needed, change TEST_BROWSER or other parameters (see FULL TEST instructions there ==> 30 miinutes + a LOT of traffic)
+
+4. just run "run.cmd" batch
+
+
+Other platforms should be just like windows except that have to get & set up also Chrome Driver if you want to run test with Google Chrome:
+* Get Chrome Driver : first check \\vms\common\soft\by_name\Selenium, if absent - download from http://code.google.com/p/chromedriver/downloads/list (put to vms)
+* Make sure it can be located on your PATH (?or specify its location via the webdriver.chrome.driver system property)
+then> java -jar search-engines-test-0.1g.jar
+
+
+Currently supported browsers are IE, FF & Google Chrome.
+Opera could be done (tried) on demand.
+Safari could be tried too but quite hopeless.
+Supported WebDriver drivers: http://seleniumhq.org/docs/03_webdriver.html#introducing-webdriver-s-drivers

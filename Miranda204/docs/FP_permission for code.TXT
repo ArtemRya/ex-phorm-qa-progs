@@ -1,0 +1,64 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+From:    Victor Pavlychko <nullbie@gmail.com>
+To:      Artem Shpynov <ashpynov@gmail.com>
+Date:    Monday, May 7, 2007, 5:25:28 PM
+Subject: permission for code
+Files:   <none>
+--====----====----====----====----====----====----====----====----====----===--
+Sure, permission granted. Good luck :)
+
+On 5/7/07, Artem Shpynov <ashpynov@gmail.com> wrote:
+> Victor,
+>
+> Could you please give your permission for Angela to use your part of code
+> (settings related part as far as I remember) in her Fingerprint Plus
+> freeware project?
+>
+> Thanks in advance,
+>
+> Artem Shpynov aka FYR
+>
+> ---------- Forwarded message ----------
+> From: Artem Shpynov <ashpynov@gmail.com>
+> Date: 25.04.2007 9:01
+>  Subject: Re: permission for code
+> To: angil@nm.ru
+> Cc: bio@ktaspb.ru
+>
+> Hi Angela,
+>
+> So as only authors of fingerprint we give to you our permission to use any
+> part of fingerprint project sources (version #1.0.0.0) in your freeware
+> (close sources) project Fingerprint Plus.
+>
+> Good luck and Best regards,
+>
+> Artem Shpynov aka FYR.
+>
+> 2007/4/25, Дмитрий <bio@ktaspb.ru>:
+> > Привет
+> >
+> > Вы писали 22 апреля 2007 г., 18:25:51:
+> >
+> > > Hello Artem, Dmitry,
+> >
+> > >   As authors of Fingerpint module could you please give me permissions
+> > >   to use your sources of fingerprint.dll module version #1.0.0.0 in my
+> > >   FREEWARE project Fingerprint Plus
+> >
+> > yes! you got it! :)
+> >
+> > --
+> > С уважением,
+> > Дмитрий                          mailto: bio@ktaspb.ru
+> >
+> >
+>
+>
+
+
+-- 
+  Regards, Victor
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+

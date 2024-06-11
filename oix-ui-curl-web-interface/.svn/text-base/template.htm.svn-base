@@ -1,0 +1,131 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+<html>
+  <head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+    <title>OIX API client</title>
+    <link type="text/css" rel="stylesheet" href="/oix-ui-curl-web-interface/regent.georg.art.css" media="all">
+    <link rel="shortcut icon" href="/oix-ui-curl-web-interface/qa.ui.webServices.logo.ico">
+  </head>
+  <body>
+    <form method="POST" action="reports.py" enctype="multipart/form-data">
+      <table>
+        <tr><td>
+            <b> QA CGI-Py-cUrl client for OIX API (<a href="https://confluence.ocslab.com/display/TDOC/OIX+Web+Services"> WebServices </a>) </b>
+            <hr>
+        </td></tr>
+        <tr><td>
+            <table width="100%">
+              <tr>
+                <td align="right"> <p title="can be found on OIX UI users My Settings page"> User token (identification)</p> </td> 
+                <td>
+                  <table width="100%" cellPadding="0" cellSpacing="0" BORDER="0">
+                    <tr>
+                      <td align="left"> <input name="token" type="text" value="###token###" size="50"> </td>
+                      <td align="right"  bgcolor="#FFE4C4">
+                        Automatically generate fresh Timestamp and its Signature:
+                        <input type="checkbox" name="autorenew_timestamp_signature" value="checked" ###autorenew_timestamp_signature###>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td align="right"> <p title="can be found on OIX UI users My Settings page">User key (HmacSHA1, base64)</p> </td>
+                <td> <input name="secure_key" type="text" value="###secure_key###" size="150"> </td>
+              </tr>
+              <tr bgcolor="#FFE4C4">
+                <td align="right"> <p title="must be within 30 minutes after of before now to pass authentication"> Timestamp</p> </td>
+                <td>
+                  <input name="timestamp" type="text" value="###timestamp###" size="20">
+                  ###minutes_from_now###
+                  from now (min:sec)
+                </td>
+              </tr>
+              <tr bgcolor="#FFE4C4">
+                <td align="right"> <p title="base64(HmacSHA1(timestamp as string, User Key)"> Signature of the timestamp </p> </td>
+                <td>
+                  <input name="hmac_sha1_signature" type="text" value="###hmac_sha1_signature###" size="35">
+                  <input name="submit" type="submit" value="recalculate signature">
+                </td>
+              </tr>
+            </table>
+        </td></tr>
+        <tr><td>
+
+            <table border="1" valign="top" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
+              <tr>
+                <td> <input name="submit" type="submit" value="=>> GET" style="font: bold 200% serif;"> </td>
+                <td colspan="2">  <b> URL </b> <input name="url" type="text" value="###url###" size="120" style="font: bold 100% serif;"> </td>
+                <!-- td spanned -->
+              </tr>
+
+              <tr >
+                <td rowspan ="2"> <input name="submit" type="submit" value="<<= POST" style="font: bold 200% serif;"> </td>
+                <td title="optional, if chosen then text area below has no effect" align="right"> 
+                  File: <input type="file" name="file_to_upload"> 
+                </td>
+                
+                
+                <td rowspan="3"> <!-- BEGIN of mega cell with OUTPUT!!!!!!! -->
+
+                  <table width="100%">
+                    <tr>
+                      <td style="font: bold 140% serif;"> <!--  font-size: 1.5em;"--> 
+                        Prevoius Request results </td>
+                      <td align="right" colspan="3">
+                        <a target="request.xml" href="../../oix-ui-curl-web-interface/request.xml"> XML file sent </a> 
+                      </td>
+                    </tr>
+                    <tr><td colspan="4">
+                        ###message###
+                    </td></tr>
+
+                    <tr class="selected">
+                      <td align="right"> <b> Watch returned data as </b> </td>
+                      <td colspan="1" align="middle"> 
+                        <b> <a target="response.xml" href="/oix-ui-curl-web-interface/response.xml" > XML </a> </b> 
+                      </td>
+                    </tr>
+                    <tr class="selected" align="middle">
+                      <td class="none"> </td>
+                      <td> <a target="excel_report.xls" href="/oix-ui-curl-web-interface/excel_report.xls"> Excel report .xls </a> </td>
+                      <td> <a target="excel-X_report.xlsx" href="/oix-ui-curl-web-interface/excel-X_report.xlsx"> Excel-X report .xlsx </a> </td>
+                      <td> <a target="csv_report.csv" href="/oix-ui-curl-web-interface/csv_report.csv"> CSV report </a> </td>
+                    </tr>
+                    <tr>
+                      <td> cUrl output: </td>
+                      <td colspan="3" align="right"> 
+                        <i> <a target="curl.log" href="/oix-ui-curl-web-interface/curl.log" style="font-size: 75%;">(cUrl commands history)</a> </i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="4"> <textarea name="curl_log" cols="80" rows="35">###curl_log###</textarea> </td>
+                    </tr>
+                  </table>
+                </td> <!-- END of mega cell with OUTPUT!!!!!!! -->
+
+
+              </tr>
+              <tr>
+                <!-- td spanned -->
+                <td> 
+                  Content type: <input list="presetContentTypes" name="content_type" type="text" value="###content_type###"/>
+                  <datalist id="presetContentTypes">
+                  <option value="application/xml"/>
+                  <option value="application/zip"/>
+                  <option value="application/x-gzip"/>
+                  <option value="text/plain"/>
+                  </datalist>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <textarea name="xml" cols="80" rows="39" title="Text (XML) to POST. It is considered only when POST method is selected and no file is chosen.">###xml###</textarea>
+                </td>
+              </tr>
+          </table>    
+      </td></tr>
+    </table>
+  </form>
+</body>
+</html>

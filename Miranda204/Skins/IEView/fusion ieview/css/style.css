@@ -1,0 +1,247 @@
+/* 
+If you have a high-resolution on your monitor e.g. 1920x1600 and you see only very tiny fonts, than uncomment (remove /*)
+the style tags and delete the old line, or change the value.
+*/
+
+body {
+	margin: 0px 0px 0px 0px;
+ 	padding: 0px;
+	font-size: 12px;
+ 	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#fixme { position: absolute; left: 0px; top: 0px; width:600px; }
+body > div#fixme { position: fixed; }
+
+.swfbox {
+height:auto;
+}
+
+.Link-foto {
+height:auto;
+}
+
+.Link-foto2 {
+height:auto;
+}
+
+.Link-Text             {color:#126ca2; text-decoration: underline;}
+.Link-Text2           {cursor:url(..\!tools\cursor\load.ani); color:#126ca2; text-decoration: underline;}
+.Mail-Text             {color:#126ca2; text-decoration: underline;}
+.Mail-Text2           {cursor:url(..\!tools\cursor\load.ani); color:#126ca2; text-decoration: underline;}
+.tzerlink               {color:#126ca2; text-decoration: underline;}
+.tzerlink2             {cursor:url(..\!tools\cursor\load.ani); color:#126ca2; text-decoration: underline;}
+
+
+.icon {margin: 5px 5px 0px 0px; }
+
+#uptimer {
+	width: auto;
+	height: 29px;
+	position: absolute;
+	top: 0px;
+	left: 5px;
+	z-index: 3;
+	background-color: transparent;
+	background-image: url('../images/uptime.gif');
+	background-position: left top;
+	background-repeat: no-repeat;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: left;
+    color: #FFFFFF;
+    font-size:13px;
+    font-weight:bold;
+	padding-left:40px;
+	visibility:hidden;
+}
+
+#uptimeroff {
+	width: 40px;
+	height: 28px;
+	position: absolute;
+	top: 0px;
+	left: 5px;
+	z-index: 3;
+	background-position: right top;
+	background-repeat: no-repeat;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: right;
+    color: #FFFFFF;
+    
+}
+
+
+div {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width: auto;
+	word-wrap: break-word;
+}
+
+p {
+	margin: 0px 0px 0px 0px;
+	width: auto;
+}
+
+a {
+	text-decoration: underline;
+	font-weight: bold;
+	color:  #126ca2;
+	/* color: #FF0000; */
+}
+
+a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+	background-color: transparent;
+	color:#000000;
+
+	/* color: #FF0000; */
+}
+
+.img {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	vertical-align: middle;
+}
+
+.time {
+	font-weight: normal;
+	float: right;
+}
+
+.history {
+	font-weight: bold;
+	color: #000000;
+}
+
+
+
+/* -------------------- incoming messagebox -------------------- */
+.in {
+	background: #E8E8E8 url(../images/bok_recv.png) repeat-y top left;
+}
+
+
+.in .head {
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 0px 0px 0px 44px;
+	padding: 2px 5px 3px 4px; /* padding: 0px 5px 3px 4px; */
+	border-right: 1px solid #B1B1B1;
+	background: url(../images/head.png) repeat-x left top;
+	height:29px;
+	/* font-size:18px; */
+	}
+
+.in .content {
+	background: #FFFFFF url(../images/bg_recv.png) repeat-y left top;
+	margin: 0px 0px 0px 44px;
+	padding: 0px 15px 5px 15px;
+	border-right: 1px solid #B1B1B1;
+	line-height: 15px;
+	color: #333333;
+	/* font-size:16px; */
+}
+
+/* grouping support */
+.in .gcontent {
+	background: #FFFFFF url(../images/bg_recv.png) repeat-y left top;
+	margin: 0px 0px 0px 44px;
+	padding: 0px 5px 5px 15px;
+	border-right: 1px solid #B1B1B1;
+	line-height: 15px;
+	color: #333333;
+	/* font-size:16px; */
+}
+
+.in .gtime {
+	color: #333333;
+	float: right;
+}
+
+/* -------------------- outgoing messagebox -------------------- */
+.out {
+	background: #E8E8E8 url(../images/bok_send.png) repeat-y top left;
+}
+
+.out .head {
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 0px 0px 0px 44px;
+	padding: 2px 5px 3px 4px; /* padding: 0px 5px 3px 4px; */
+	border-right: 1px solid #B1B1B1;
+	background: url(../images/headout.png) repeat-x left top;
+	height:29px;
+	/* font-size:18px; */
+}
+
+.out .content {
+	background: #FFFFFF url(../images/bg_send.png) repeat-y left top;
+	margin: 0px 0px 0px 44px;
+	padding: 0px 15px 5px 15px;
+	border-right: 1px solid #B1B1B1;
+	line-height: 15px;
+	color: #333333;
+	/* font-size:16px; */
+}
+
+/* grouping support */
+.out .gcontent {
+	background: #FFFFFF url(../images/bg_sendnext.png) repeat-y left top;
+	margin: 0px 0px 0px 44px;
+	padding: 0px 5px 5px 15px;
+	border-right: 1px solid #B1B1B1;
+	line-height: 15px;
+	color: #333333;
+	/* font-size:16px; */
+}
+
+.out .gtime {
+	color: #333333;
+	float: right;
+	text-align:right;
+}
+
+
+
+
+/* status support */
+.status {
+	background: #E8E8E8 url(../images/bok_status.png) no-repeat top left;
+	background-image: url(../images/bok_status.png) repeat-y top left;
+
+}
+.status .inhalt {
+	background: #FFFFFF url(../images/bg_status.png) repeat;
+	margin: 0px 0px 0px 44px;
+	padding: 0px 15px 0px 15px;
+	border-right: 1px solid #B1B1B1;
+	line-height: 26px;
+	color: #000000;
+	font-style:italic;
+	font-size:11px; /* font-size:14px; */
+}
+
+
+/* file transfer support */
+.file {
+	background: #E8E8E8 url(../images/bok_status.png) no-repeat top left;
+
+}
+.file .fileinhalt {
+	background: #FFFFFF url(../images/bg_status.png) repeat;
+	margin: 0px 0px 0px 44px;
+	padding: 0px 15px 0px 15px;
+	border-right: 1px solid #B1B1B1;
+	line-height: 26px;
+	color: #000000;
+	font-style:italic;
+	font-weight:bold;
+	font-size:13px; /* font-size:14px; */
+}
+
+
+
+
+

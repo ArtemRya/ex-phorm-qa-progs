@@ -1,0 +1,634 @@
+09:29:02.849 +0 [INFO] Starting at Fri Mar 22 09:29:02 MSK 2013
+09:29:05.074 +2 [FINE] Opt In result:
+=== Request params ===
+server-id = snode0;
+time = 2013-03-22 06:29:00;
+user_status = optin;
+tid = 0;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = XSLC5GPVTOmc6nSuJvtMJg..;
+signed_uid = XSLC5GPVTOmc6nSuJvtMJgkcrkmQf6ThErdffxxZBoFrZAUytzMUW0pc7S0Pxrx28;
+temporary_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 1156235;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+;
+trigger_channels = ;
+;
+content_channels = ;
+search_unmatched = ;
+page_unmatched = ;
+
+=== History matching result ===
+last_request_time = 1970-01-01 00:00:00;
+create_time = 2013-03-22 06:29:00;
+session_start = 2013-03-22 06:29:00;
+history_channels = ;
+partly_from_to_history_channels = ;
+partly_now_to_history_channels = ;
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+colo_id = 84;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+imp_revenue = 0.0;
+click_revenue = 0.0;
+action_revenue = 0.0;
+min_no_adv_ecpm = 0;
+no_adv_margin_rule = ;
+min_text_ecpm = 0;
+text_margin_rule = ;
+test_request = 0;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+passback_url = ;
+passback_app_format = html;
+track_pixel_url = ;
+cpm_threshold = 0;
+walled_garden = 0;
+user_group_id = 68;
+geo_channels = ;
+device_channels = 1156242,1737775;
+last_device_channel_id = 1737775;
+selected_creatives = ;
+
+=== Time Metering ===
+trigger_match_time = 0:000671 (sec:usec) : 0:000028 (sec:usec);
+full_text_match_time = 0:000000 (sec:usec);
+request_fill_time = 0:000203 (sec:usec);
+history_match_time = 0:001565 (sec:usec) : 0:000569 (sec:usec);
+creative_selection_time = 0:001527 (sec:usec): 0:000710 (sec:usec);
+history_post_match_time = 0:000001 (sec:usec);
+09:29:06.071 +0 [FINE] 
+
+
+
+
+
+
+
+--------- Sending the kwd req for Ad1: http://a.oix-stage.net/services/nslookup?require-debug-info=body&referer-kw=devqa-test-addb-3272-art-braz-cpc-1 -----------------------
+09:29:06.102 +0 [FINE] Match for Ad1:
+=== Request params ===
+server-id = snode0;
+time = 2013-03-22 06:29:02;
+user_status = optin;
+tid = 0;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = XSLC5GPVTOmc6nSuJvtMJg..;
+signed_uid = XSLC5GPVTOmc6nSuJvtMJgkcrkmQf6ThErdffxxZBoFrZAUytzMUW0pc7S0Pxrx28;
+temporary_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 1156235;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+  art :: 17554P :: 595422
+  art :: 17557P :: 601000
+  art :: 21674P :: 1181228
+  art :: 17554P :: 596268
+  art :: 17557P :: 601846
+  art :: 21674P :: 1182074
+  devqa test addb 3272 art braz cpc 1 :: 1738001P :: 15487696
+  test :: 14789P :: 143470
+  test :: 14794P :: 96189
+  test :: 17554P :: 595225
+  test :: 17557P :: 600803
+  test :: 21674P :: 1181031
+  test :: 17554P :: 595611
+  test :: 17557P :: 601189
+  test :: 21674P :: 1181417
+;
+trigger_channels = 14789P, 14794P, 17554P, 17557P, 21674P, 1738001P;
+;
+content_channels = 17554(4), 17557(4), 21674(4), 1738001(1);
+search_unmatched = ;
+page_unmatched = ;
+
+=== History matching result ===
+last_request_time = 2013-03-22 06:29:00;
+create_time = 2013-03-22 06:29:00;
+session_start = 2013-03-22 06:29:00;
+history_channels = 17554,17557,21674,1738001;
+partly_from_to_history_channels = 17554(1, 1), 17557(1, 1), 21674(1, 1), 1738001(1, 1);
+partly_now_to_history_channels = 14789(1, 10), 14794(1, 10), 17554(1, 1), 17557(1, 1), 21674(1, 1), 1738001(1, 1);
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+colo_id = 84;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+imp_revenue = 0.0;
+click_revenue = 0.0;
+action_revenue = 0.0;
+min_no_adv_ecpm = 0;
+no_adv_margin_rule = ;
+min_text_ecpm = 0;
+text_margin_rule = ;
+test_request = 0;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+passback_url = ;
+passback_app_format = html;
+track_pixel_url = ;
+cpm_threshold = 0;
+walled_garden = 0;
+user_group_id = 68;
+geo_channels = ;
+device_channels = 1156242,1737775;
+last_device_channel_id = 1737775;
+selected_creatives = ;
+
+=== Time Metering ===
+trigger_match_time = 0:000942 (sec:usec) : 0:000379 (sec:usec);
+full_text_match_time = 0:000000 (sec:usec);
+request_fill_time = 0:000118 (sec:usec);
+history_match_time = 0:000943 (sec:usec) : 0:000220 (sec:usec);
+creative_selection_time = 0:009818 (sec:usec): 0:003817 (sec:usec);
+history_post_match_time = 0:000001 (sec:usec);
+09:29:06.148 +0 [FINER] Cookies: [uid=XSLC5GPVTOmc6nSuJvtMJgkcrkmQf6ThErdffxxZBoFrZAUytzMUW0pc7S0Pxrx28; expires=Сб, 22 мар 2014 09:29:02 MSK; path=/; domain=.oix-stage.net]
+09:29:06.148 +0 [FINE] 
+
+
+
+
+
+
+
+--------- Sending kwd 1 req * 6 times for Ad2: http://a.oix-stage.net/services/nslookup?require-debug-info=body&referer-kw=devqatestaddb3272artkwd1 ----------------
+09:29:12.296 +6 [FINE] Match for Ad2 he 6th time:
+=== Request params ===
+server-id = snode0;
+time = 2013-03-22 06:29:08;
+user_status = optin;
+tid = 0;
+request_id = AAAAAAAAAAAAAAAAAAAAAA..;
+page_load_id = 0;
+test_request = 0;
+log_as_test = 0;
+location = ;
+referer = ;
+uid = XSLC5GPVTOmc6nSuJvtMJg..;
+signed_uid = XSLC5GPVTOmc6nSuJvtMJgkcrkmQf6ThErdffxxZBoFrZAUytzMUW0pc7S0Pxrx28;
+temporary_uid = ;
+ip = 192.168.3.206;
+search-phrase = ;
+do_passback = false;
+colocation_passback = false;
+browser = IE 7.0;
+platform = windows;
+full_platform = windows nt 5.1;
+platform_ids = 1156235;
+
+=== Channel matching result ===
+special_channels_effects = TRACK, ADV;
+triggers = 
+  devqatestaddb3272artkwd1 :: 1737967P :: 15487641
+;
+trigger_channels = 1737967P;
+;
+content_channels = ;
+search_unmatched = ;
+page_unmatched = ;
+
+=== History matching result ===
+last_request_time = 2013-03-22 06:29:07;
+create_time = 2013-03-22 06:29:00;
+session_start = 2013-03-22 06:29:00;
+history_channels = 17554,17557,21674,1737967,1738001;
+partly_from_to_history_channels = 17554(1, 1), 17557(1, 1), 21674(1, 1), 1737967(6, 6), 1738001(1, 1);
+partly_now_to_history_channels = 14789(1, 10), 14794(1, 10), 17554(1, 1), 17557(1, 1), 21674(1, 1), 1737967(6, 6), 1738001(1, 1);
+full_freq_caps = ;
+full_virtual_freq_caps = ;
+fraud_request = false;
+
+=== Creative selection ===
+ccid = 0;
+cmpid = 0;
+creative_size = ;
+mime_format = ;
+colo_id = 84;
+tag_id = 0;
+site_id = 0;
+site_rate_id = 0;
+imp_revenue = 0.0;
+click_revenue = 0.0;
+action_revenue = 0.0;
+min_no_adv_ecpm = 0;
+no_adv_margin_rule = ;
+min_text_ecpm = 0;
+text_margin_rule = ;
+test_request = 0;
+freq-caps = ;
+uc-freq-caps = ;
+v-freq-caps = ;
+passback_url = ;
+passback_app_format = html;
+track_pixel_url = ;
+cpm_threshold = 0;
+walled_garden = 0;
+user_group_id = 68;
+geo_channels = ;
+device_channels = 1156242,1737775;
+last_device_channel_id = 1737775;
+selected_creatives = ;
+
+=== Time Metering ===
+trigger_match_time = 0:000689 (sec:usec) : 0:000068 (sec:usec);
+full_text_match_time = 0:000000 (sec:usec);
+request_fill_time = 0:000079 (sec:usec);
+history_match_time = 0:000996 (sec:usec) : 0:000246 (sec:usec);
+creative_selection_time = 0:000979 (sec:usec): 0:000178 (sec:usec);
+history_post_match_time = 0:000001 (sec:usec);
+09:29:12.296 +0 [FINER] Cookies: [uid=XSLC5GPVTOmc6nSuJvtMJgkcrkmQf6ThErdffxxZBoFrZAUytzMUW0pc7S0Pxrx28; expires=Сб, 22 мар 2014 09:29:08 MSK; path=/; domain=.oix-stage.net]
+09:29:13.292 +0 [FINE] 
+
+
+
+
+
+
+
+--------- Watching TID http://a.oix-stage.net/services/nslookup?tid=6637&colo=611&loc.name=ru&require-debug-info=header&debug.ccg=24866 ----------------------------------------
+09:29:13.370 +0 [FINE] <?xml version="1.0" encoding="utf-8"?>
+<html xmlns:oix="http://phorm.com/oix/xslt-template">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      
+    body             {margin:0; padding:0; overflow:hidden; background-color:#FFFFFF; border:1px solid gray;}
+    .impression      {overflow:hidden; width:298px; height:248px;}
+    .impression a    {text-decoration:none; cursor:pointer;}
+    .creative        {float:left; width:100%; height:100%; overflow:hidden;}
+    .creative table  {width:100%; height:100%; margin:0; padding:0; border-collapse:collapse;}
+    .creative td     {padding:0.3em; height:100%; font-family:Arial,sans-serif; font-size:10px; color:black;}
+    .creative td     {word-break:break-all;}  /* css3-text */
+    .creative td.one {width:100%; text-align:center; vertical-align:middle;}
+    .HEADLINE        {font-weight:bold; color:blue; text-decoration:underline;}
+    .DISPLAY_URL     {color:#008000; font-size:10px;}
+    #ibutton         {width:12px; height:12px; position:absolute; right:5px; bottom:5px; z-index:10; border:1px solid #551A8B; font:bold 10px monospace; text-align:center; background-color:white; overflow:hidden;}
+    #ibutton a       {text-decoration:none;}
+
+    
+    
+    img                 {width:100%; height:100%; border:0 none;}
+    td.himage,td.one-image {padding-top:5px; padding-right:0; padding-bottom:0;}
+    td.text             {width:100%; text-align:left !important;}
+    td.one-image        {text-align:right !important;}
+    td.one-text         {text-align:left !important; vertical-align:middle !important;}
+    .vimage-container   {width:100%; text-align:center;}
+    div.himage          {overflow:hidden;}
+    div.vimage          {overflow:hidden; margin-left:auto; margin-right:auto; padding-bottom:0.3em;}
+    div.one-image       {overflow:hidden; margin-left:auto; margin-right:0;}
+    div.i234x60x1 {
+      width:69px; height:50px;
+    }
+    div.i234x90x1 {
+      width:110px; height:80px;
+    }
+    div.i728x90x1,div.i728x90x2,div.i728x90x3,div.i728x90x4 {
+      width:110px; height:80px;
+    }
+    div.i468x60x1,div.i468x60x2 {
+      width:69px; height:50px;
+    }
+    div.i300x250x1,div.i300x250x2 {
+      width:110px; height:80px;
+    }
+    div.i300x250x3,div.i300x250x4 {
+      width:69px; height:50px;
+    }
+    div.i120x600x1,div.i120x600x2,div.i120x600x3,div.i120x600x4 {
+      width:110px; height:80px;
+    }
+    div.i160x600x1,div.i160x600x2,div.i160x600x3,div.i160x600x4,div.i160x600x5 {
+      width:110px; height:80px;
+    }
+    /* KOREAN */
+    div.i580x150x1 {
+      width:110px; height:80px;
+    }
+    div.i580x150x2,div.i580x150x3 {
+      width:69px; height:50px;
+    }
+    div.i250x250x1 {
+      width:110px; height:80px;
+    }
+    div.i250x250x2,div.i250x250x3 {
+      width:69px; height:50px;
+    }
+    div.i560x200x1,div.i560x200x2 {
+      width:110px; height:80px;
+    }
+    div.i560x200x3 {
+      width:69px; height:50px;
+    }
+    div.i545x150x1 {
+      width:110px; height:80px;
+    }
+    div.i545x150x2,div.i545x150x3 {
+      width:69px; height:50px;
+    }
+  
+    .creative       {width:100%; height:50%;}
+    .creative.last  {height:50%;}
+    .creative td    {vertical-align:middle; padding:0.3em 3px;}
+    
+        .creative td  {font-size:16px;}
+      
+      body,#logo {background-color:#FFFFFF;}
+    
+      body          {border-width:1px;}
+    
+      body          {border-color:#808080;}
+    
+      .creative td  {color:#000000;}
+    
+      .creative td  {font-family:Arial;}
+    
+      .creative td  {font-size:10px;}
+    
+      .creative table {border-width:0px; border-style:solid; border-color:gray;}
+      
+        td.himage,td.one-image {padding-top:5px !important;}
+      
+      .creative table {border-color:#;}
+    
+      .HEADLINE     {color:#0000FF;}
+    
+      .DISPLAY_URL  {color:#008000;}
+    
+    </style>
+  </head>
+  <body>
+    <div class="impression">
+      <a href="http://a.oix-stage.net/services/AdClickServer/ccid*eql*83119*amp*requestid*eql*U04nlxikSeGL1ZtzQwlP0A..*amp*h*eql*117" target="_blank">
+        <div class="creative ">
+          <table onclick="if (window.ActiveXObject) {event.preventDefault &amp;&amp; event.preventDefault(); this.parentNode.click();}">
+            <tbody>
+              <tr>
+                <td class="himage i300x250x2">
+                  <div class="i300x250x2 himage">
+                    <img src="http://f.oixcrv-stage.net/creatives/5586/5587/TextAdImages/~resized/Comite-dePronunciamentos-Contabeis.jpg.jpg"/>
+                  </div>
+                </td>
+                <td class="text">
+                  <div class="HEADLINE">
+                    ADDB-3291 CPCBrazil - 1
+                  </div>
+                  text creato group id = 24832 
+                  <div class="DISPLAY_URL">
+                    Comitê de Pronunciamentos Contábeis
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </a>
+      <a href="http://a.oix-stage.net/services/AdClickServer/ccid*eql*83113*amp*requestid*eql*lQOXDc5TRFipujckiuRrzQ..*amp*h*eql*117*amp*ccgkeyword*eql*90604" target="_blank">
+        <div class="creative last">
+          <table onclick="if (window.ActiveXObject) {event.preventDefault &amp;&amp; event.preventDefault(); this.parentNode.click();}">
+            <tbody>
+              <tr>
+                <td>
+                  <div class="HEADLINE">
+                    test ADDB-3272 group
+                  </div>
+                  text creative 
+                  <div class="DISPLAY_URL">
+                    group id = 24832
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </a>
+    </div>
+    <img src="http://a.oix-stage.net/services/ImprTrack/pt.gif?requestid=U04nlxikSeGL1ZtzQwlP0A..,lQOXDc5TRFipujckiuRrzQ..&amp;rid=jizDZa07R2e6O_XVS_heEg..&amp;h=117" width="0" height="0" style="visibility:hidden; position:absolute;"/>
+  </body>
+</html>
+
+09:29:13.370 +0 [FINE] Response headers:
+[Date=Fri, 22 Mar 2013 06:29:09 GMT, Server=Apache, Debug-Info=server-id = snode0; time = 2013-03-22 06:29:09; user_status = optin; tid = 6637; request_id = 53_usRA2TmiT5dNROeK4mQ..; page_load_id = 0; test_request = 0; log_as_test = 0; location = ru//; referer = ; uid = XSLC5GPVTOmc6nSuJvtMJg..; signed_uid = XSLC5GPVTOmc6nSuJvtMJgkcrkmQf6ThErdffxxZBoFrZAUytzMUW0pc7S0Pxrx28; temporary_uid = ; ip = 192.168.3.206; search-phrase = ; do_passback = false; colocation_passback = false; browser = IE 7.0; platform = windows; full_platform = windows nt 5.1; platform_ids = 1156235; special_channels_effects = TRACK, ADV; triggers = ; trigger_channels = ; ; content_channels = ; ccg_keywords =( 'devQAtestADDB3272ArtKwd1' :: 90604 :: 1737967 :: 24832) ; search_unmatched = ; page_unmatched = ; last_request_time = 2013-03-22 06:29:08; create_time = 2013-03-22 06:29:00; session_start = 2013-03-22 06:29:00; history_channels = 17554,17557,21674,1737967,1738001; partly_from_to_history_channels = 17554(1, 1), 17557(1, 1), 21674(1, 1), 1737967(6, 6), 1738001(1, 1); partly_now_to_history_channels = 14789(1, 10), 14794(1, 10), 17554(1, 1), 17557(1, 1), 21674(1, 1), 1737967(6, 6), 1738001(1, 1); full_freq_caps = ; full_virtual_freq_caps = ; fraud_request = false; ccid = 83119; cmpid = 24866; creative_size = text; mime_format = text/html; colo_id = 611; tag_id = 6637; site_id = 4277; site_rate_id = 0; imp_revenue = 0.0; click_revenue = 200.0; action_revenue = 0.0; min_no_adv_ecpm = 4; no_adv_margin_rule = ; min_text_ecpm = 4; text_margin_rule = ; test_request = 0; freq-caps = ; uc-freq-caps = ; v-freq-caps = ; passback_url = ; passback_app_format = html; track_pixel_url = http://a.oix-stage.net/services/ImprTrack/pt.gif?requestid=U04nlxikSeGL1ZtzQwlP0A..,lQOXDc5TRFipujckiuRrzQ..&rid=jizDZa07R2e6O_XVS_heEg..&h=117; cpm_threshold = 92062; walled_garden = 0; user_group_id = 68; geo_channels = ; device_channels = 1156242,1737775; last_device_channel_id = 1737775; selected_creatives = ( request_id = U04nlxikSeGL1ZtzQwlP0A..; ccid = 83119; cmp_id = 24866; triggered_expression = 1738001; ecpm = 84458; ecpm_bid = 84458; click_url = http://a.oix-stage.net/services/AdClickServer/ccid*eql*83119*amp*requestid*eql*U04nlxikSeGL1ZtzQwlP0A..*amp*h*eql*117; html_url = ; action_adv_url = ; revenue = 0.0; imp_revenue = 0.0; click_revenue = 100.0; action_revenue = 0.0; margin_rule_id = ) ( request_id = lQOXDc5TRFipujckiuRrzQ..; ccid = 83113; cmp_id = 24832; triggered_expression = 1737967; ecpm = 7604; ecpm_bid = 7604; click_url = http://a.oix-stage.net/services/AdClickServer/ccid*eql*83113*amp*requestid*eql*lQOXDc5TRFipujckiuRrzQ..*amp*h*eql*117*amp*ccgkeyword*eql*90604; html_url = ; action_adv_url = ; revenue = 0.0; imp_revenue = 0.0; click_revenue = 100.0; action_revenue = 0.0; margin_rule_id = ) ; trigger_match_time = 0:000648 (sec:usec) : 0:000031 (sec:usec); full_text_match_time = 0:000000 (sec:usec); request_fill_time = 0:000079 (sec:usec); history_match_time = 0:001064 (sec:usec) : 0:000232 (sec:usec); creative_selection_time = 0:009694 (sec:usec): 0:008446 (sec:usec); history_post_match_time = 0:000000 (sec:usec);, Cache-Control=no-store, no-cache, Set-Cookie=uid=XSLC5GPVTOmc6nSuJvtMJgkcrkmQf6ThErdffxxZBoFrZAUytzMUW0pc7S0Pxrx28; expires=Sat, 22-Mar-2014 06:29:09 GMT; domain=.oix-stage.net; path=/, P3P=CP="NON COR PSAo PSDo OUR BUS UNI STA PRE", Content-Length=5272, Keep-Alive=timeout=5, max=90, Connection=Keep-Alive, Content-Type=text/html]
+09:29:14.382 +1 [FINE] Found 2 links to creatives: [<a href="http://a.oix-stage.net/services/AdClickServer/ccid*eql*83119*amp*requestid*eql*U04nlxikSeGL1ZtzQwlP0A..*amp*h*eql*117" target="_blank">, <a href="http://a.oix-stage.net/services/AdClickServer/ccid*eql*83113*amp*requestid*eql*lQOXDc5TRFipujckiuRrzQ..*amp*h*eql*117*amp*ccgkeyword*eql*90604" target="_blank">]
+09:29:14.382 +0 [FINER] Window handlers: current = 3275569
+others = [3275569]
+22.03.2013 9:29:15 org.apache.http.impl.client.DefaultRequestDirector handleResponse
+WARNING: Authentication error: Unable to respond to any of these challenges: {}
+09:29:15.129 +0 [FINE] 
+
+
+
+
+Clicked ad 1 and received:
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:oix="http://phorm.com/oix/xslt-template">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      
+    body             {margin:0; padding:0; overflow:hidden; background-color:#FFFFFF; border:1px solid gray;}
+    .impression      {overflow:hidden; width:298px; height:248px;}
+    .impression a    {text-decoration:none; cursor:pointer;}
+    .creative        {float:left; width:100%; height:100%; overflow:hidden;}
+    .creative table  {width:100%; height:100%; margin:0; padding:0; border-collapse:collapse;}
+    .creative td     {padding:0.3em; height:100%; font-family:Arial,sans-serif; font-size:10px; color:black;}
+    .creative td     {word-break:break-all;}  /* css3-text */
+    .creative td.one {width:100%; text-align:center; vertical-align:middle;}
+    .HEADLINE        {font-weight:bold; color:blue; text-decoration:underline;}
+    .DISPLAY_URL     {color:#008000; font-size:10px;}
+    #ibutton         {width:12px; height:12px; position:absolute; right:5px; bottom:5px; z-index:10; border:1px solid #551A8B; font:bold 10px monospace; text-align:center; background-color:white; overflow:hidden;}
+    #ibutton a       {text-decoration:none;}
+
+    
+    
+    img                 {width:100%; height:100%; border:0 none;}
+    td.himage,td.one-image {padding-top:5px; padding-right:0; padding-bottom:0;}
+    td.text             {width:100%; text-align:left !important;}
+    td.one-image        {text-align:right !important;}
+    td.one-text         {text-align:left !important; vertical-align:middle !important;}
+    .vimage-container   {width:100%; text-align:center;}
+    div.himage          {overflow:hidden;}
+    div.vimage          {overflow:hidden; margin-left:auto; margin-right:auto; padding-bottom:0.3em;}
+    div.one-image       {overflow:hidden; margin-left:auto; margin-right:0;}
+    div.i234x60x1 {
+      width:69px; height:50px;
+    }
+    div.i234x90x1 {
+      width:110px; height:80px;
+    }
+    div.i728x90x1,div.i728x90x2,div.i728x90x3,div.i728x90x4 {
+      width:110px; height:80px;
+    }
+    div.i468x60x1,div.i468x60x2 {
+      width:69px; height:50px;
+    }
+    div.i300x250x1,div.i300x250x2 {
+      width:110px; height:80px;
+    }
+    div.i300x250x3,div.i300x250x4 {
+      width:69px; height:50px;
+    }
+    div.i120x600x1,div.i120x600x2,div.i120x600x3,div.i120x600x4 {
+      width:110px; height:80px;
+    }
+    div.i160x600x1,div.i160x600x2,div.i160x600x3,div.i160x600x4,div.i160x600x5 {
+      width:110px; height:80px;
+    }
+    /* KOREAN */
+    div.i580x150x1 {
+      width:110px; height:80px;
+    }
+    div.i580x150x2,div.i580x150x3 {
+      width:69px; height:50px;
+    }
+    div.i250x250x1 {
+      width:110px; height:80px;
+    }
+    div.i250x250x2,div.i250x250x3 {
+      width:69px; height:50px;
+    }
+    div.i560x200x1,div.i560x200x2 {
+      width:110px; height:80px;
+    }
+    div.i560x200x3 {
+      width:69px; height:50px;
+    }
+    div.i545x150x1 {
+      width:110px; height:80px;
+    }
+    div.i545x150x2,div.i545x150x3 {
+      width:69px; height:50px;
+    }
+  
+    .creative       {width:100%; height:50%;}
+    .creative.last  {height:50%;}
+    .creative td    {vertical-align:middle; padding:0.3em 3px;}
+    
+        .creative td  {font-size:16px;}
+      
+      body,#logo {background-color:#FFFFFF;}
+    
+      body          {border-width:1px;}
+    
+      body          {border-color:#808080;}
+    
+      .creative td  {color:#000000;}
+    
+      .creative td  {font-family:Arial;}
+    
+      .creative td  {font-size:10px;}
+    
+      .creative table {border-width:0px; border-style:solid; border-color:gray;}
+      
+        td.himage,td.one-image {padding-top:5px !important;}
+      
+      .creative table {border-color:#;}
+    
+      .HEADLINE     {color:#0000FF;}
+    
+      .DISPLAY_URL  {color:#008000;}
+    
+    </style>
+  </head>
+  <body>
+    <div class="impression">
+      <a href="http://a.oix-stage.net/services/AdClickServer/ccid*eql*83119*amp*requestid*eql*U04nlxikSeGL1ZtzQwlP0A..*amp*h*eql*117" target="_blank">
+        <div class="creative ">
+          <table onclick="if (window.ActiveXObject) {event.preventDefault &amp;&amp; event.preventDefault(); this.parentNode.click();}">
+            <tbody>
+              <tr>
+                <td class="himage i300x250x2">
+                  <div class="i300x250x2 himage">
+                    <img src="http://f.oixcrv-stage.net/creatives/5586/5587/TextAdImages/~resized/Comite-dePronunciamentos-Contabeis.jpg.jpg"/>
+                  </div>
+                </td>
+                <td class="text">
+                  <div class="HEADLINE">
+                    ADDB-3291 CPCBrazil - 1
+                  </div>
+                  text creato group id = 24832 
+                  <div class="DISPLAY_URL">
+                    Comitê de Pronunciamentos Contábeis
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </a>
+      <a href="http://a.oix-stage.net/services/AdClickServer/ccid*eql*83113*amp*requestid*eql*lQOXDc5TRFipujckiuRrzQ..*amp*h*eql*117*amp*ccgkeyword*eql*90604" target="_blank">
+        <div class="creative last">
+          <table onclick="if (window.ActiveXObject) {event.preventDefault &amp;&amp; event.preventDefault(); this.parentNode.click();}">
+            <tbody>
+              <tr>
+                <td>
+                  <div class="HEADLINE">
+                    test ADDB-3272 group
+                  </div>
+                  text creative 
+                  <div class="DISPLAY_URL">
+                    group id = 24832
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </a>
+    </div>
+    <img src="http://a.oix-stage.net/services/ImprTrack/pt.gif?requestid=U04nlxikSeGL1ZtzQwlP0A..,lQOXDc5TRFipujckiuRrzQ..&amp;rid=jizDZa07R2e6O_XVS_heEg..&amp;h=117" width="0" height="0" style="visibility:hidden; position:absolute;"/>
+  </body>
+</html>
+
+09:29:15.129 +0 [FINE] Response headers:
+[Date=Fri, 22 Mar 2013 06:29:11 GMT, Server=Apache/2.2.21 (Red Hat), Pragma=No-cache, Cache-Control=no-cache, Expires=Thu, 01 Jan 1970 00:00:00 GMT, X-Powered-By=JSP/2.1, Set-Cookie=JSESSIONID=0c967aa92f942fcc4d483c3ff811.worker1; Path=/; HttpOnly, Content-Language=en-US, Content-Length=6852, Keep-Alive=timeout=15, max=500, Connection=Keep-Alive, Content-Type=text/html;charset=UTF-8]
+09:29:15.129 +0 [FINER] Window handlers: current = 3275569
+others = [18439211, 3275569]
+09:29:15.129 +0 [INFO] finished
+09:29:15.129 +0 [INFO] finished

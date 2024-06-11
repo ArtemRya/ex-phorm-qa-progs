@@ -1,0 +1,381 @@
+<!--HTMLStart-->
+<html>
+<head>
+<base href="%base%">
+<style type="text/css">
+body				{ background:url(images/background.png) #c7cac6 bottom right repeat-x fixed; font-family:Trebuchet MS,Arial,sans-serif }
+
+a				{ color:#fff; }
+a:hover				{ text-decoration:none; }
+
+div.msg_overall			{ overflow:hidden; display:inline; width:expression(document.body.clientWidth-50); text-overflow:ellipsis; }
+div.msg_name			{ margin-top:1px; text-transform:uppercase; white-space:nowrap; overflow:hidden; display:inline; width:expression(document.body.clientWidth-130); text-overflow:ellipsis; }
+div.msg_msg			{ padding-top:4px; padding-bottom:3px; }
+div.msg_time			{ margin-top:1px; float:right; position:relative; }
+div.msg_avatar			{ height:60px; border:1px solid #444; float:left; position:relative; }
+div.msg_status			{ margin-top:1px; white-space:nowrap; overflow:hidden; display:inline; width:expression(document.body.clientWidth-140); text-overflow:ellipsis; }
+
+img.avatar			{ height:60px; }
+img.img				{ vertical-align:middle; }
+
+div.msg_sep			{ margin-left:15px; margin-right:15px; margin-bottom:0px; margin-top:2px; border-bottom:1px solid #444; }
+div.msg_gptime			{ padding-left:7px; margin-top:4px; text-align:right; color:#fff; position:relative; float:right; right:7px; font-size:9px; font-weight:bold; }
+div.msg_arrowout		{ margin-top:7px; font-size:0px; position:relative; z-index:5; float:right; width:5px; height:10px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='%base%images/arrow_out.png',sizingMethod='scale'); }
+div.msg_arrowin			{ margin-top:7px; font-size:0px; position:relative; z-index:5; float:right; width:5px; height:10px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='%base%images/arrow_in.png',sizingMethod='scale'); }
+
+div.status_overall		{ margin-bottom:18px; }
+div.status_l			{ padding-top:1px; left:8px; position:relative; float:left; font-size:11px; text-align:center; padding-right:3px; width:91px; height:18px; text-transform:uppercase; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='%base%images/status_l.png',sizingMethod='scale'); }
+div.status_m			{ position:relative; padding-left:5px; color:#fff; left:5px; margin-right:19px; height:18px; font-size:11px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='%base%images/status_m.png',sizingMethod='scale'); }
+div.status_r			{ font-size:0px; width:6px; height:18px; position:relative; float:right; top:-18px; right:8px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='%base%images/status_r.png',sizingMethod='scale'); }
+
+table.msg_box			{ margin-bottom:5px; }
+
+td.msg_tl			{ font-size:0px; width:18px; height:18px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='%base%images/msg_tl.png',sizingMethod='scale'); }
+td.msg_tm			{ font-size:11px; height:18px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='%base%images/msg_tm.png',sizingMethod='scale'); }
+td.msg_tr			{ font-size:0px; width:18px; height:18px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='%base%images/msg_tr.png',sizingMethod='scale'); }
+
+td.msg_ml			{ font-size:0px; width:18px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='%base%images/msg_ml.png',sizingMethod='scale'); }
+td.msg_mm			{ padding-top:7px; color:#fff; font-size:11px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='%base%images/msg_mm.png',sizingMethod='scale'); }
+td.msg_mr			{ font-size:0px; width:18px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='%base%images/msg_mr.png',sizingMethod='scale'); }
+
+td.msg_bl			{ font-size:0px; width:18px; height:18px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='%base%images/msg_bl.png',sizingMethod='scale'); }
+td.msg_bm			{ font-size:0px; height:18px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='%base%images/msg_bm.png',sizingMethod='scale'); }
+td.msg_br			{ font-size:0px; width:18px; height:18px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='%base%images/msg_br.png',sizingMethod='scale'); }
+</style>
+</head>
+<body>
+<script language="Javascript" src="scripts.js"></script>
+
+<!--MessageIn-->
+<table class="msg_box" cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+		<td class="msg_tl"></td>
+		<td class="msg_tm">
+			<div class="msg_time">%time%</div>
+			<div class="msg_name" title="%name%">%name%</div></td>
+		<td class="msg_tr"></td>
+	</tr>
+	<tr>
+		<td class="msg_ml"></td>
+		<td class="msg_mm">
+		<div class="msg_overall">
+			<div class="msg_avatar"><img src="%avatar%" class="avatar" alt="Incoming Avatar" /></div>
+
+			<div style="padding-top:0px;" class="msg_msg">%text%&nbsp;
+			<div class="msg_arrowin"></div></div>
+		</div>
+		</div>
+		</td>
+		<td class="msg_mr"></td>
+	</tr>
+	<tr>
+		<td class="msg_bl"></td>
+		<td class="msg_bm"></td>
+		<td class="msg_br"></td>
+	</tr>
+</table>
+
+<!--MessageOut-->
+<table class="msg_box" cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+		<td class="msg_tl"></td>
+		<td class="msg_tm">
+			<div class="msg_time">%time%</div>
+			<div class="msg_name" title="%name%">%name%</div></td>
+		<td class="msg_tr"></td>
+	</tr>
+	<tr>
+		<td class="msg_ml"></td>
+		<td class="msg_mm">
+		<div class="msg_overall">
+			<div class="msg_avatar"><img src="%avatar%" class="avatar" alt="Outgoing Avatar" /></div>
+
+			<div style="padding-top:0px;" class="msg_msg">%text%&nbsp;
+			<div class="msg_arrowout"></div></div>
+		</div>
+		</div>
+		</td>
+		<td class="msg_mr"></td>
+	</tr>
+	<tr>
+		<td class="msg_bl"></td>
+		<td class="msg_bm"></td>
+		<td class="msg_br"></td>
+	</tr>
+</table>
+
+<!--hMessageIn-->
+<table class="msg_box" cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+		<td class="msg_tl"></td>
+		<td class="msg_tm">
+			<div class="msg_time">%time%</div>
+			<div class="msg_name" title="%name%">%name%</div></td>
+		<td class="msg_tr"></td>
+	</tr>
+	<tr>
+		<td class="msg_ml"></td>
+		<td class="msg_mm">
+		<div class="msg_overall">
+			<div class="msg_avatar"><img src="%avatar%" class="avatar" alt="Incoming Avatar" /></div>
+
+			<div style="padding-top:0px;" class="msg_msg">%text%&nbsp;
+			<div class="msg_arrowin"></div></div>
+		</div>
+		</div>
+		</td>
+		<td class="msg_mr"></td>
+	</tr>
+	<tr>
+		<td class="msg_bl"></td>
+		<td class="msg_bm"></td>
+		<td class="msg_br"></td>
+	</tr>
+</table>
+
+<!--hMessageOut-->
+<table class="msg_box" cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+		<td class="msg_tl"></td>
+		<td class="msg_tm">
+			<div class="msg_time">%time%</div>
+			<div class="msg_name" title="%name%">%name%</div></td>
+		<td class="msg_tr"></td>
+	</tr>
+	<tr>
+		<td class="msg_ml"></td>
+		<td class="msg_mm">
+		<div class="msg_overall">
+			<div class="msg_avatar"><img src="%avatar%" class="avatar" alt="Outgoing Avatar" /></div>
+
+			<div style="padding-top:0px;" class="msg_msg">%text%&nbsp;
+			<div class="msg_arrowout"></div></div>
+		</div>
+		</div>
+		</td>
+		<td class="msg_mr"></td>
+	</tr>
+	<tr>
+		<td class="msg_bl"></td>
+		<td class="msg_bm"></td>
+		<td class="msg_br"></td>
+	</tr>
+</table>
+
+<!--File-->
+<div class="status_overall">
+	<div class="status_l">file</div>
+	<div class="status_m"><div class="msg_status" title="%text%">%text%&nbsp;</div></div>
+	<div class="status_r"></div>
+</div>
+
+<!--Status-->
+<div class="status_overall">
+	<div class="status_l">status</div>
+	<div class="status_m"><div class="msg_status" title="%name% %text%"><b>%name%</b> %text%&nbsp;</div></div>
+	<div class="status_r"></div>
+</div>
+
+<!--URL-->
+<div class="status_overall">
+	<div class="status_l">url</div>
+	<div class="status_m"><div class="msg_status" title="%text%">%text%&nbsp;</div></div>
+	<div class="status_r"></div>
+</div>
+
+<!--hFile-->
+<div class="status_overall">
+	<div class="status_l">file</div>
+	<div class="status_m"><div class="msg_status" title="%text%">%text%&nbsp;</div></div>
+	<div class="status_r"></div>
+</div>
+
+<!--hStatus-->
+<div class="status_overall">
+	<div class="status_l">status</div>
+	<div class="status_m"><div class="msg_status" title="%name% %text%"><b>%name%</b> %text%&nbsp;</div></div>
+	<div class="status_r"></div>
+</div>
+
+<!--hURL-->
+<div class="status_overall">
+	<div class="status_l">url</div>
+	<div class="status_m"><div class="msg_status" title="%text%">%text%&nbsp;</div></div>
+	<div class="status_r"></div>
+</div>
+
+<!--MessageInGroupStart-->
+<script type="text/javascript">endGroupMsg();</script>
+<table class="msg_box" cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+		<td class="msg_tl"></td>
+		<td class="msg_tm">
+			<div class="msg_time">%time%</div>
+			<div class="msg_name" title="%name%">%name%</div></td>
+		<td class="msg_tr"></td>
+	</tr>
+	<tr>
+		<td class="msg_ml"></td>
+		<td class="msg_mm">
+		<div class="msg_overall">
+			<div class="msg_avatar"><img src="%avatar%" class="avatar" alt="Incoming Avatar" /></div>
+
+			<div class="msg_arrowin"></div>
+			<div style="padding-top:0px;" class="msg_msg">%text%&nbsp;</div>
+			<div id="message_current"></div>
+		</div>
+		</div>
+		</td>
+		<td class="msg_mr"></td>
+	</tr>
+	<tr>
+		<td class="msg_bl"></td>
+		<td class="msg_bm"></td>
+		<td class="msg_br"></td>
+	</tr>
+</table>
+
+<!--MessageInGroupInner-->
+<div id="msg_new_grouped" style="display:none;">
+			<div class="msg_sep"></div>
+
+			<div class="msg_arrowin"></div>
+			<div class="msg_gptime">%time%</div>
+			<div class="msg_msg">%text%</div>
+</div>
+<script type="text/javascript">appendGroupMsg();</script>
+
+<!--MessageInGroupEnd-->
+<script type="text/javascript">endGroupMsg();</script>
+
+<!--MessageOutGroupStart-->
+<script type="text/javascript">endGroupMsg();</script>
+<table class="msg_box" cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+		<td class="msg_tl"></td>
+		<td class="msg_tm">
+			<div class="msg_time">%time%</div>
+			<div class="msg_name" title="%name%">%name%</div></td>
+		<td class="msg_tr"></td>
+	</tr>
+	<tr>
+		<td class="msg_ml"></td>
+		<td class="msg_mm">
+		<div class="msg_overall">
+			<div class="msg_avatar"><img src="%avatar%" class="avatar" alt="Outgoing Avatar" /></div>
+
+			<div class="msg_arrowout"></div>
+			<div style="padding-top:0px;" class="msg_msg">%text%&nbsp;</div>
+			<div id="message_current"></div>
+		</div>
+		</div>
+		</td>
+		<td class="msg_mr"></td>
+	</tr>
+	<tr>
+		<td class="msg_bl"></td>
+		<td class="msg_bm"></td>
+		<td class="msg_br"></td>
+	</tr>
+</table>
+
+<!--MessageOutGroupInner-->
+<div id="msg_new_grouped" style="display:none;">
+			<div class="msg_sep"></div>
+
+			<div class="msg_arrowout"></div>
+			<div class="msg_gptime">%time%</div>
+			<div class="msg_msg">%text%</div>
+</div>
+<script type="text/javascript">appendGroupMsg();</script>
+
+<!--MessageOutGroupEnd-->
+<script type="text/javascript">endGroupMsg();</script>
+
+<!--hMessageInGroupStart-->
+<script type="text/javascript">endGroupMsg();</script>
+<table class="msg_box" cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+		<td class="msg_tl"></td>
+		<td class="msg_tm">
+			<div class="msg_time">%time%</div>
+			<div class="msg_name" title="%name%">%name%</div></td>
+		<td class="msg_tr"></td>
+	</tr>
+	<tr>
+		<td class="msg_ml"></td>
+		<td class="msg_mm">
+		<div class="msg_overall">
+			<div class="msg_avatar"><img src="%avatar%" class="avatar" alt="Incoming Avatar" /></div>
+
+			<div class="msg_arrowin"></div>
+			<div style="padding-top:0px;" class="msg_msg">%text%&nbsp;</div>
+			<div id="message_current"></div>
+		</div>
+		</div>
+		</td>
+		<td class="msg_mr"></td>
+	</tr>
+	<tr>
+		<td class="msg_bl"></td>
+		<td class="msg_bm"></td>
+		<td class="msg_br"></td>
+	</tr>
+</table>
+
+<!--hMessageInGroupInner-->
+<div id="msg_new_grouped" style="display:none;">
+			<div class="msg_sep"></div>
+
+			<div class="msg_arrowin"></div>
+			<div class="msg_gptime">%time%</div>
+			<div class="msg_msg">%text%</div>
+</div>
+<script type="text/javascript">appendGroupMsg();</script>
+
+<!--hMessageInGroupEnd-->
+<script type="text/javascript">endGroupMsg();</script>
+
+<!--hMessageOutGroupStart-->
+<script type="text/javascript">endGroupMsg();</script>
+<table class="msg_box" cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+		<td class="msg_tl"></td>
+		<td class="msg_tm">
+			<div class="msg_time">%time%</div>
+			<div class="msg_name" title="%name%">%name%</div></td>
+		<td class="msg_tr"></td>
+	</tr>
+	<tr>
+		<td class="msg_ml"></td>
+		<td class="msg_mm">
+		<div class="msg_overall">
+			<div class="msg_avatar"><img src="%avatar%" class="avatar" alt="Outgoing Avatar" /></div>
+
+			<div class="msg_arrowout"></div>
+			<div style="padding-top:0px;" class="msg_msg">%text%&nbsp;</div>
+			<div id="message_current"></div>
+		</div>
+		</div>
+		</td>
+		<td class="msg_mr"></td>
+	</tr>
+	<tr>
+		<td class="msg_bl"></td>
+		<td class="msg_bm"></td>
+		<td class="msg_br"></td>
+	</tr>
+</table>
+
+<!--hMessageOutGroupInner-->
+<div id="msg_new_grouped" style="display:none;">
+			<div class="msg_sep"></div>
+
+			<div class="msg_arrowout"></div>
+			<div class="msg_gptime">%time%</div>
+			<div class="msg_msg">%text%</div>
+</div>
+<script type="text/javascript">appendGroupMsg();</script>
+
+<!--hMessageOutGroupEnd-->
+<script type="text/javascript">endGroupMsg();</script>

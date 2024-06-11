@@ -1,0 +1,244 @@
+<!--HTMLStart-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<base href="%base%"/>
+
+
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" media="screen" href="./css/style_black.css" />
+	<script src="config.js"></script>
+	
+<script language="javascript" type="text/javascript">	
+function hidden() {
+  document.getElementById("uptimer").style.visibility = "hidden";
+  document.getElementById("uptimeroff").style.visibility = "visible";
+}
+
+function show() {
+  document.getElementById("uptimer").style.visibility = "visible";
+  document.getElementById("uptimeroff").style.visibility = "hidden";
+}
+</script>
+
+<script language="javascript" type="text/javascript">
+var wmiService = GetObject("winmgmts:\\\\.\\root\\CIMV2");
+var LAST_BOOTUP_TIME_QUERY = "SELECT LastBootUpTime FROM Win32_OperatingSystem";
+var uptimeTimeout;
+
+function Uptime()
+{
+    var rawLastBootUpTime;
+	var items = wmiService.ExecQuery(LAST_BOOTUP_TIME_QUERY);
+	var it = new Enumerator(items);
+    while (!it.atEnd()) 
+	{
+		rawLastBootUpTime = it.item().LastBootUpTime;
+		it.moveNext()
+	}
+	var year = rawLastBootUpTime.substr(0, 4);
+	var month = rawLastBootUpTime.substr(4, 2);
+	var day = rawLastBootUpTime.substr(6, 2);
+	var hour = rawLastBootUpTime.substr(8, 2);
+	var minute = rawLastBootUpTime.substr(10, 2);
+	var second = rawLastBootUpTime.substr(12, 2);
+	
+	var lastBootUpTime = new Date(year, month-1, day, hour, minute, second);
+	var now = new Date();
+	var seconds = (now - lastBootUpTime)/1000;
+	var days = Math.floor(seconds/60/60/24);
+	seconds -= (days*24*60*60);
+	var hours = Math.floor(seconds/60/60);
+	seconds -= (hours*60*60);
+	var minutes = Math.floor(seconds/60);
+	seconds = seconds - (minutes*60);
+	seconds = Math.floor(seconds);
+	if(minutes < 10) minutes = "0" + minutes;
+	if(seconds < 10) seconds = "0" + seconds;
+	
+	var uptime =  days + "T "  + hours + "h " + minutes + "m " + seconds + "s  ";
+	
+	uptimer.innerHTML='<img src="./images/clockonly_black.gif" style=\"height:28px; width:40px; cursor:pointer; position:absolute; left: 0px; z-index:201;\" id="closeButtonTime" onclick="hidden()" title="Uhr verstecken" alt="Close">' + '   Uhrzeit: ' +now +' | Uptime: ' +uptime ;
+	uptimeTimeout = setTimeout("Uptime()", 1000);
+	
+}
+</script>
+</head>
+
+<body style="background: #000000 url(images/bg_empty_black.jpg) repeat-x fixed top;" class="body" id="body">
+<!--system uptime ### Delete the following line if not wanted ###-->
+<div id="fixme">
+<div id="uptimer"><script type="text/javascript">Uptime();</script></div>
+<div id="uptimeroff"><img src="./images/clockonly_black.gif"  width="40" height="28" alt="zeige Uhr" onclick="show()" /></div>
+</div>
+
+
+
+
+<!--MessageIn-->
+	
+	<div class="in">
+	<p class="head">
+	<span class="time">%time%</span>
+	%name% (%proto%)
+	</p>
+	<div class="content"><script>getitall('%\text%','%\name%','%\uin%','%\base%',meldungsart[0]);</script></div>
+	</div>
+
+<!--hMessageIn-->
+
+	<div class="in">
+	<p class="head">
+	<span class="time"><span class="history">[History]</span> %date%, %time%</span>
+	%name% (%proto%)
+	</p>
+	<div class="content"><script>getitall('%\text%','%\name%','%\uin%','%\base%',meldungsart[4]);</script></div>
+
+<!--MessageInGroupStart-->
+	
+	<div class="in">
+
+					<p class="head">
+						<span class="time">%time%</span>
+						%name% (%proto%)
+					</p>
+					<div class="gcontent"><script>getitall('%\text%','%\name%','%\uin%','%\base%',meldungsart[0]);</script></div>
+
+<!--MessageInGroupInner-->
+					<div class="gcontent">
+						<span class="gtime">%time%</span>
+						<script>getitall('%\text%','%\name%','%\uin%','%\base%',meldungsart[0]);</script>
+					</div>
+
+<!--MessageInGroupEnd-->
+
+	</div>
+	
+<!--hMessageInGroupStart-->
+	
+	<div class="in">
+
+					<p class="head">
+						<span class="time"><span class="history">[History]</span> %date%, %time%</span>
+						%name% (%proto%)
+					</p>
+					<div class="content"><script>getitall('%\text%','%\name%','%\uin%','%\base%',meldungsart[4]);</script></div>
+
+<!--hMessageInGroupInner-->
+					<div class="gcontent">
+						<span class="gtime">%time%</span>
+						<script>getitall('%\text%','%\name%','%\uin%','%\base%',meldungsart[4]);</script>
+					</div>
+
+					
+<!--hMessageInGroupEnd-->
+
+	</div>
+
+<!--MessageOut-->
+	
+	<div class="out">
+	<p class="head">
+	<span class="time">%time%</span>
+	%name%
+	</p>
+	<div class="content"><script>getitall('%\text%','%\name%','%\uin%','%\base%',meldungsart[0]);</script></div>
+	</div>
+	
+<!--hMessageOut-->
+	
+	<div class="out">
+
+					<p class="head">
+						<span class="time"><span class="history">[History]</span> %date%, %time%</span>
+						%name%
+					</p>
+					<div class="content"><script>getitall('%\text%','%\name%','%\uin%','%\base%',meldungsart[4]);</script></div>
+
+	</div>
+	
+<!--MessageOutGroupStart-->
+
+	<div class="out">
+
+					<p class="head">
+						<span class="time">%time%</span>
+						%name% (%proto%)
+					</p>
+					<div class="gcontent"><script>getitall('%\text%','%\name%','%\uin%','%\base%',meldungsart[0]);</script></div>
+
+<!--MessageOutGroupInner-->
+					<div class="gcontent">
+						<span class="gtime">%time%</span>
+						<script>getitall('%\text%','%\name%','%\uin%','%\base%',meldungsart[0]);</script>
+					</div>
+
+<!--MessageOutGroupEnd-->
+
+	</div>
+	
+<!--hMessageOutGroupStart-->
+	<div class="out">
+					<p class="head">
+						<span class="time"><span class="history">[History]</span> %date%, %time%</span>
+						%name%
+					</p>
+					<div class="content"><script>getitall('%\text%','%\name%','%\uin%','%\base%',meldungsart[4]);</script></div>
+<!--hMessageOutGroupInner-->
+					<div class="gcontent">
+						<span class="gtime">%time%</span>
+						<script>getitall('%\text%','%\name%','%\uin%','%\base%',meldungsart[0]);</script>
+					</div>
+<!--hMessageOutGroupEnd-->
+	</div>
+
+<!--Status-->
+	<div class="status">
+	<p class="inhalt">%name% %text% @ %date% - %time% </p>
+	</div>
+	
+<!--hStatus-->
+	<div class="status">
+	<p class="inhalt">%name% %text% @ %date% - %time% </p>
+	</div>
+	
+<!--URL-->
+
+	<div class="url">
+
+					<p class="head">
+						<span class="time">%time%</span>
+						%name%
+					</p>
+					<p class="content">
+						%text%
+					</p>
+
+	</div>
+	
+<!--hURL-->
+	
+	<div class="url">
+
+					<p class="head">
+						<span class="time">%date%, %time%</span>
+						%name%
+					</p>
+					<p class="content">
+						%text%
+					</p>
+
+	</div>
+	
+<!--File-->
+
+	<div class="file">
+	<div class="fileinhalt"><script>getandsenddata('%\text%','%\nameIn%','%base%','%\uinIn%','%\cid%')</script></div>
+	</div>
+	
+	
+<!--hFile-->
+	<div class="file">
+	<div class="fileinhalt"><script>getandsenddata('%\text%','%\nameIn%','%base%','%\uinIn%','%\cid%')</script></div>
+	</div>

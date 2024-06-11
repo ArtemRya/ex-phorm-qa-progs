@@ -1,0 +1,47 @@
+Test 1.5.2. Invoice Generation test.
+http://a.oix-rubytest.net/services/nslookup?require-debug-info=body&glbfcap=0&setuid=1
+http://a.oix-rubytest.net/services/nslookup?tid=199950&country=us&referer=www.midwestconstructionlaw.com/Articles/non-payment.htm&rnd=5327496&glbfcap=0&require-debug-info=html
+
+Test 1.6.2. Ordinary Agency
+http://a.oix-rubytest.net/services/nslookup?require-debug-info=body&setuid=1&glbfcap=0
+http://a.oix-rubytest.net/services/nslookup?tid=208473&country=ro&glbfcap=0&require-debug-info=header&referer-kw=oui_disputing&colo=57164 Repeate = 5; Click = yes
+
+Test 1.6.3. CMP Invoice
+http://a.oix-rubytest.net/services/nslookup?require-debug-info=body&setuid=1&glbfcap=0
+http://a.oix-rubytest.net/services/nslookup?referer=http://disput.ui&tid=208473&colo=57164&glbfcap=0&country=ro&require-debug-info=header Repeate = 5
+
+Test 1.6.4. Invoice from Walled Garden Account
+http://a.oix-rubytest.net/services/nslookup?require-debug-info=body&setuid=1&prck=0&glbfcap=0
+http://a.oix-rubytest.net/services/nslookup?referer=http://disputing-wg-cpc.ui&tid=210233&colo=57184&glbfcap=0&country=ro&require-debug-info=header Repeate = 5; Click = yes
+
+Test 4.1. Generate stats and invoice
+http://a.oix-rubytest.net/services/nslookup?require-debug-info=body&glbfcap=0&setuid=1
+http://a.oix-rubytest.net/services/nslookup?tid=294&referer=www.cmp.com/test&glbfcap=0&country=gb&require-debug-info=header
+
+Test 5.5. Postconditions
+http://a.oix-rubytest.net/services/nslookup?glbfcap=0&referer=minimal_amount_cmp.com&tid=210133&colo=57144&country=us&require-debug-info=header
+
+Test 6. No Self-Bill generation for for publisher inventory tags
+http://a.oix-rubytest.net/services/nslookup?require-debug-info=body&glbfcap=0&setuid=1
+http://a.oix-rubytest.net/services/nslookup?glbfcap=0&referer=oui-inventory-tags.com&tid=210513&colo=57244&tag.inv=1&country=us&require-debug-info=body Repeate = 10
+
+Test 8.1. Positive test for campaign passed end date
+http://a.oix-rubytest.net/services/nslookup?require-debug-info=body&glbfcap=0&setuid=1
+http://a.oix-rubytest.net/services/nslookup?tid=194670&colo=3069&referer=display-campaign-completion.com&glbfcap=0&country=gb&require-debug-info=header Repeate = 5
+
+Test 8.4. Negative test for campaign with too small invoice amount.
+http://a.oix-rubytest.net/services/nslookup?require-debug-info=body&glbfcap=0&setuid=1
+http://a.oix-rubytest.net/services/nslookup?tid=194670&colo=3069&referer=display-campaign-completion.com&glbfcap=0&country=gb&require-debug-info=header
+
+Test 8.5. Regular flow + text campaign
+http://a.oix-rubytest.net/services/nslookup?require-debug-info=body&glbfcap=0&setuid=1
+http://a.oix-rubytest.net/services/nslookup?tid=211676&referer=oui-oncampaigncompletion.com&colo=57444&glbfcap=0&country=kr
+http://a.oix-rubytest.net/services/nslookup?tid=211676&referer=oui-text-oncampaigncompletion.com&colo=57444&glbfcap=0&country=kr
+
+Test 9.1. Fix attribution of date ranges to invoices
+http://a.oix-rubytest.net/services/nslookup?require-debug-info=body&glbfcap=0&setuid=1
+http://a.oix-rubytest.net/services/nslookup?tid=199130&colo=54463&referer=megan.com&glbfcap=0&country=gb&require-debug-info=header Click = yes
+
+
+
+

@@ -1,0 +1,36 @@
+[0.002][INFO]:      ChromeDriver 26.0.1383.0 H:\WebDriver.BrowserDrivers\chromedriver.exe
+[0.482][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.483][INFO]:      Launching chrome: "C:\Documents and Settings\artem_ryabov\Local Settings\Application Data\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --ignore-certificate-errors about:blank
+[0.961][INFO]:      Connected to Chrome successfully. Version: 29.0.1547.66
+[0.992][FINE]:      Command received (/session/91cfaf0f932fd59faae4cf97188615b5)
+[0.992][FINE]:      Command finished (/session/91cfaf0f932fd59faae4cf97188615b5) with response {
+   "sessionId": "91cfaf0f932fd59faae4cf97188615b5",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "29.0.1547.66",
+      "webStorageEnabled": true
+   }
+}
+
+[1.019][FINE]:      Command received (/session/91cfaf0f932fd59faae4cf97188615b5/window_handles)
+[1.019][FINER]:     Waiting for all views to stop loading...
+[1.020][FINER]:     Done waiting for all views to stop loading

@@ -1,0 +1,1 @@
+H:\Programs\PuTTY\pscp.exe -pw artryab2008 ..\html\*.* artem_ryabov@vauto:/var/www/html/oix-ui-curl-web-interface
